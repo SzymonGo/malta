@@ -1,0 +1,3593 @@
+{
+ "version": 1,
+ "meta": {
+  "title": "Malta 7–14.11.2026",
+  "start": "2026-11-07",
+  "end": "2026-11-14",
+  "sunset": "16:55",
+  "base": "Sliema (bez auta)"
+ },
+ "hotel": {
+  "placeRef": "centric",
+  "address": "Triq ix-Xatt 20, Sliema SLM 1024"
+ },
+ "schedule": {
+  "fixed": {
+   "2026-11-07": "ARRIVAL",
+   "2026-11-08": "SUN_MARSAXLOKK",
+   "2026-11-14": "DEPARTURE"
+  },
+  "flexDefault": {
+   "2026-11-09": "RABAT_MDINA_DINGLI",
+   "2026-11-10": "THREE_CITIES",
+   "2026-11-11": "GOZO",
+   "2026-11-12": "SOUTH_NONE",
+   "2026-11-13": "VALLETTA"
+  },
+  "weatherSafe": [
+   "VALLETTA",
+   "THREE_CITIES"
+  ]
+ },
+ "hypogeum": {
+  "placeRef": "hypogeum",
+  "storeUrl": "https://heritagemalta.mt/store/s81/",
+  "rules": [
+   "Last-minute: 50 €/os, sprzedaż tylko dzień przed wizytą, maks. 4 bilety na osobę, kto pierwszy, ten lepszy.",
+   "Do 12:00 sprzedają: kasa Fort St Elmo (Valletta) i sklep Gozo Museum of Archaeology w Cittadelli (muzeum zamknięte w remoncie, sklep działa). Obiekty otwierają się o 9:00.",
+   "Po 12:00 także: Muzeum Archeologiczne w Valletcie, Domvs Romana w Rabacie i samo Hypogeum w Paoli.",
+   "Zwykle na tury 12:00 i 16:00 następnego dnia. Grupy maks. 10 osób.",
+   "Zwykły bilet online: 35 €/os. Sklep online (gdy coś się zwolni): heritagemalta.mt/store/s81/"
+  ],
+  "attemptThursday": {
+   "id": "lmThu",
+   "date": "2026-11-12",
+   "time": "08:00",
+   "shift": 60,
+   "placeRef": "fortStElmo",
+   "location": "Valletta – Fort St Elmo",
+   "title": "Próba last-minute: kolejka pod kasą Fort St Elmo",
+   "note": "W kolejce od 8:00, kasa otwiera się z obiektem o 9:00. Bilety na piątek (tury 12:00 i 16:00). Reszta dnia przesunięta o godzinę; z Fort St Elmo idźcie prosto na dworzec przy City Gate (ok. 15 min)."
+  },
+  "dailyCheck": {
+   "dates": [
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13"
+   ],
+   "title": "Sprawdź sklep online Heritage Malta",
+   "note": "Rano zajrzyjcie do sklepu online – czasem zwalniają się pojedyncze miejsca na Hypogeum."
+  }
+ },
+ "places": {
+  "centric": {
+   "name": "Centric Hotel by Cast Hotels",
+   "kind": "hotel",
+   "area": "Sliema",
+   "address": "Triq ix-Xatt 20, Sliema SLM 1024",
+   "lat": 35.9095234,
+   "lng": 14.5042022,
+   "placeId": "ChIJFWTacOhFDhMRSC7mm1OAyvY",
+   "short": "Na nabrzeżu, ok. 3 min pieszo do promu do Valletty i przystanku Sliema Ferries.",
+   "food": [
+    "kups",
+    "jeffs",
+    "ilMerill",
+    "taKris"
+   ]
+  },
+  "sliema": {
+   "name": "Nabrzeże Sliemy i Tigné Point",
+   "kind": "sight",
+   "area": "Sliema",
+   "q": "Tigné Point Sliema Malta",
+   "short": "Promenada z widokiem na oświetloną Vallettę po drugiej stronie zatoki Marsamxett.",
+   "history": "Sliema była niewielką osadą rybacką, a w XIX wieku stała się letniskiem zamożnych mieszkańców Valletty. Dziś to gęsto zabudowane miasto hoteli, sklepów i kawiarni z długą nadmorską promenadą. Na końcu cypla leży Tigné Point – dawny teren wojskowy z fortem Tigné z końca XVIII wieku, dziś osiedle z galerią handlową The Point. Z nabrzeża przy hotelu rozciąga się panorama Valletty po drugiej stronie zatoki Marsamxett: kopuła kościoła karmelitów i strzelista wieża anglikańskiej katedry św. Pawła, wieczorem pięknie oświetlone.",
+   "facts": [
+    "Fort Tigné zbudowali joannici tuż przed końcem rządów zakonu na Malcie.",
+    "Kopuła karmelitów i iglica katedry anglikańskiej to dwa punkty, po których rozpoznacie Vallettę z każdego miejsca w Sliemie."
+   ],
+   "see": [
+    "Panorama Valletty z nabrzeża",
+    "Tigné Point i pozostałości fortu Tigné",
+    "Promenada w stronę St Julian's"
+   ],
+   "hours": "Całą dobę",
+   "price": "Wstęp wolny",
+   "duration": "30–60 min",
+   "food": [
+    "kups",
+    "jeffs",
+    "taKris"
+   ],
+   "images": [
+    {
+     "file": "img/sliema.jpg",
+     "author": "PayniePaynie",
+     "license": "CC0",
+     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Sliema_Dawn.jpg",
+     "caption": "Nabrzeże Sliemy o świcie",
+     "title": "File:Sliema Dawn.jpg"
+    }
+   ]
+  },
+  "sliemaFerries": {
+   "name": "Sliema Ferries – przystań i przystanek",
+   "kind": "transport",
+   "area": "Sliema",
+   "q": "Sliema Ferries Malta",
+   "short": "Przystań promu do Valletty (ok. 10 min) i przystanek autobusowy Sliema Ferries, ok. 3 min pieszo od hotelu. Prom pn–czw co 30 min ok. 6:45–19:15, potem co godzinę do ok. 22:15; pt–sb kursy do ok. 0:15; w niedziele ok. 8:45–18:30. Bilet 3 € (wieczorem 3,50 €).",
+   "warnings": [
+    "W niedzielę prom kursuje krócej (ok. 8:45–18:30).",
+    "Miejcie drobną gotówkę na bilet."
+   ],
+   "verify": true,
+   "url": "https://www.vallettaferryservices.com/schedule/"
+  },
+  "vallettaTerminus": {
+   "name": "Dworzec autobusowy Valletta (City Gate)",
+   "kind": "transport",
+   "area": "Valletta",
+   "q": "Valletta Bus Terminus Malta",
+   "short": "Pętla przy City Gate. Stąd linie na południe (Marsaxlokk, Paola, Ħaġar Qim) i do Rabatu."
+  },
+  "threeCitiesFerry": {
+   "name": "Prom Valletta – Trzy Miasta",
+   "kind": "transport",
+   "area": "Valletta",
+   "q": "Valletta Ferry Services Three Cities ferry Malta",
+   "short": "Przystań na nabrzeżu pod Barrakka Lift (winda 1 €). Rejs do Cospicua/Birgu ok. 10 min, 3 €. Pn–czw co 30 min ok. 6:45–19:15, w niedziele ok. 9:00–18:15.",
+   "verify": true,
+   "url": "https://www.vallettaferryservices.com/schedule/"
+  },
+  "airport": {
+   "name": "Lotnisko Malta (MLA)",
+   "kind": "transport",
+   "area": "Luqa",
+   "q": "Malta International Airport",
+   "short": "W hali przylotów: kiosk/automat Malta Public Transport (karta Explore) i bankomaty."
+  },
+  "upperBarrakka": {
+   "name": "Upper Barrakka Gardens",
+   "kind": "sight",
+   "area": "Valletta",
+   "lat": 35.8951791,
+   "lng": 14.5119437,
+   "placeId": "ChIJ8RPSTdNaDhMRt_pbHE3v2uA",
+   "short": "Taras nad Wielkim Portem; salwa armatnia 12:00 i 16:00 (pn–sb), wstęp do ogrodów wolny. Obok winda Barrakka Lift (1 €).",
+   "history": "Ogrody założono w XVII wieku na bastionie św. Piotra i Pawła, w najwyższym punkcie murów Valletty. Początkowo służyły rycerzom zakonu z języka włoskiego jako miejsce wypoczynku. Po odejściu zakonu udostępniono je mieszkańcom, a z czasem wypełniły się pomnikami i tablicami z epoki brytyjskiej. Poniżej tarasu leży Saluting Battery – bateria, z której oddawano salwy honorowe na powitanie okrętów i podawano miastu sygnał czasu. Dziś działa jako muzeum, a armaty strzelają codziennie w południe i o 16:00. Z tarasu rozciąga się najlepszy widok na Wielki Port i Trzy Miasta: Birgu, Senglea i Cospicua.",
+   "facts": [
+    "Pierwsza winda z nabrzeża do ogrodów działała już na początku XX wieku; obecna Barrakka Lift stoi w tym samym miejscu.",
+    "Naprzeciwko widać Fort St Angelo, w którym w 1608 roku więziono Caravaggia.",
+    "Salwa o 12:00 to kontynuacja dawnego sygnału czasu dla miasta i portu."
+   ],
+   "see": [
+    "Taras z widokiem na Wielki Port i Trzy Miasta",
+    "Saluting Battery poniżej tarasu – salwa 12:00 i 16:00",
+    "Arkady i pomniki w ogrodach",
+    "Barrakka Lift – zjazd na nabrzeże (1 €)"
+   ],
+   "hours": "Ogrody codziennie; Saluting Battery pn–sb 9:30–17:30, salwa 12:00 i 16:00",
+   "price": "Wstęp wolny; winda 1 €",
+   "duration": "30 min (z salwą)",
+   "warnings": [
+    "Na salwę przyjdźcie ok. 15 min wcześniej, żeby stanąć przy balustradzie nad baterią."
+   ],
+   "food": [
+    "kiosk",
+    "cordina",
+    "isSuq"
+   ],
+   "images": [
+    {
+     "file": "img/upperBarrakka.jpg",
+     "author": "Diego Delso",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Jardines_de_Barrakka_Superior,_La_Valeta,_isla_de_Malta,_Malta,_2021-08-25,_DD_243-245_HDR.jpg",
+     "caption": "Arkady Upper Barrakka Gardens o zmierzchu",
+     "title": "File:Jardines de Barrakka Superior, La Valeta, isla de Malta, Malta, 2021-08-25, DD 243-245 HDR.jpg"
+    },
+    {
+     "file": "img/upperBarrakka-2.jpg",
+     "author": "Diego Delso",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Batería_del_saludo_militar,_La_Valeta,_isla_de_Malta,_Malta,_2021-08-25,_DD_183.jpg",
+     "caption": "Armaty Saluting Battery nad Wielkim Portem",
+     "title": "File:Batería del saludo militar, La Valeta, isla de Malta, Malta, 2021-08-25, DD 183.jpg"
+    }
+   ]
+  },
+  "marsaxlokk": {
+   "name": "Targ rybny Marsaxlokk",
+   "kind": "sight",
+   "area": "Marsaxlokk",
+   "lat": 35.8410905,
+   "lng": 14.5452762,
+   "placeId": "ChIJA2TSAplbDhMRHg8jvwzWXdM",
+   "short": "Tylko w niedzielę rano, ryby do ok. 10:30. Łodzie luzzu z okiem na dziobie.",
+   "history": "Marsaxlokk to największa wioska rybacka Malty, położona w głębokiej zatoce na południowo-wschodnim wybrzeżu. Nazwa łączy arabskie „marsa” (port) z maltańskim „xlokk”, czyli sirocco – ciepłym wiatrem z południowego wschodu. Zatoka od wieków przyciągała najeźdźców: w 1565 roku zakotwiczyła tu flota osmańska podczas Wielkiego Oblężenia, a w 1798 roku przy jej brzegach lądowały wojska Napoleona. Symbolem wioski są luzzu – drewniane łodzie malowane na niebiesko, żółto i czerwono, z okiem na dziobie, które według tradycji chroni rybaków przed złem. W niedzielę nabrzeże zamienia się w targ rybny i bazar z lokalnymi produktami.",
+   "facts": [
+    "Oko na dziobie luzzu bywa wiązane z fenickim lub egipskim okiem Horusa – rybacy traktują je jak talizman.",
+    "W grudniu 1989 roku na statkach zakotwiczonych w zatoce spotkali się George Bush i Michaił Gorbaczow (szczyt maltański).",
+    "Dźwigi na horyzoncie to port kontenerowy Freeport w Birżebbuġi – ostry kontrast z rybacką wioską."
+   ],
+   "see": [
+    "Targ rybny na nabrzeżu (najlepiej przed 10:30)",
+    "Kolorowe łodzie luzzu z okiem na dziobie",
+    "Kościół Matki Bożej z Pompejów nad portem",
+    "Stragany z miodem, nugatem i przyprawami"
+   ],
+   "hours": "Targ: niedziela rano; ryby zwykle do ok. 10:30",
+   "price": "Wstęp wolny",
+   "duration": "1–1,5 h",
+   "warnings": [
+    "Tłok rośnie po 11:00 – przyjedźcie wcześnie.",
+    "Na straganach płaci się zwykle gotówką."
+   ],
+   "food": [
+    "tartarun",
+    "nostraPadrona"
+   ],
+   "images": [
+    {
+     "file": "img/marsaxlokk.jpg",
+     "author": "Merlingenial",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Auge_des_Osiris_auf_einem_Luzzu,_Maltesisches_Fischerboot.jpg",
+     "caption": "Oko Ozyrysa na dziobie łodzi luzzu w Marsaxlokk",
+     "title": "File:Auge des Osiris auf einem Luzzu, Maltesisches Fischerboot.jpg"
+    },
+    {
+     "file": "img/marsaxlokk-2.jpg",
+     "author": "Adrian Farwell",
+     "license": "CC BY 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Marsaxlokk_Boats_-_Vivid_-_panoramio.jpg",
+     "caption": "Kolorowe łodzie luzzu w porcie Marsaxlokk",
+     "title": "File:Marsaxlokk Boats - Vivid - panoramio.jpg"
+    }
+   ]
+  },
+  "stPetersPool": {
+   "name": "St Peter's Pool",
+   "kind": "sight",
+   "area": "Marsaxlokk (Delimara)",
+   "q": "St Peter's Pool Marsaxlokk Malta",
+   "short": "Naturalny basen skalny, 35 min pieszo z Marsaxlokk.",
+   "history": "Naturalny basen wśród płaskich wapiennych skał na półwyspie Delimara. Morze wcina się tu w niewielką zatoczkę o pionowych ścianach, a przy spokojnej pogodzie woda jest przejrzysta i turkusowa. Miejsce słynie z kąpieli i skoków do wody ze skalnych półek. Nie ma tu plaży, ratowników ani żadnej infrastruktury – tylko skały wygładzone przez morze i wiatr. W listopadzie bywa pusto, a widok z klifu nad basenem wynagradza spacer nawet bez kąpieli.",
+   "facts": [
+    "To jedno z najbardziej znanych na Malcie miejsc do skoków do wody.",
+    "Nie dojeżdża tu komunikacja – zostaje spacer albo taksówka."
+   ],
+   "see": [
+    "Skalne półki nad basenem",
+    "Widok z klifu na otwarte morze",
+    "Kąpiel przy spokojnym morzu (opcjonalnie)"
+   ],
+   "hours": "Teren otwarty",
+   "price": "Wstęp wolny",
+   "duration": "45–60 min na miejscu",
+   "warnings": [
+    "Śliskie skały i brak ratownika – przy fali nie wchodźcie do wody.",
+    "Brak toalet, cienia i sklepu – weźcie wodę.",
+    "Wygodne buty: droga częściowo bez chodnika."
+   ],
+   "food": [
+    "tartarun",
+    "nostraPadrona"
+   ],
+   "images": [
+    {
+     "file": "img/stPetersPool.jpg",
+     "author": "Frank Vincentz",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Malta_-_Marsaxlokk_-_Sqaq_St._Peter's_Pool_-_St._Peter's_Pool_01_ies.jpg",
+     "caption": "Skały i turkusowa woda St Peter's Pool na Delimarze",
+     "title": "File:Malta - Marsaxlokk - Sqaq St. Peter's Pool - St. Peter's Pool 01 ies.jpg"
+    }
+   ]
+  },
+  "grandmaster": {
+   "name": "Pałac Wielkiego Mistrza + zbrojownia",
+   "kind": "sight",
+   "area": "Valletta",
+   "lat": 35.8984755,
+   "lng": 14.5138645,
+   "placeId": "ChIJQy2a1ytFDhMRv14qui21blQ",
+   "url": "https://heritagemalta.mt/explore/the-grandmasters-palace/",
+   "short": "Heritage Malta (w Multisite Pass). Codziennie 9:00–17:00. Sala Tronowa zamknięta do odwołania.",
+   "history": "Pałac powstał w drugiej połowie XVI wieku, wkrótce po założeniu Valletty, jako siedziba wielkich mistrzów zakonu joannitów. Przez kolejne stulecia był rozbudowywany i bogato urządzany: korytarze zdobią malowane sklepienia, herby i marmurowe posadzki. Po zakonie rezydowali tu brytyjscy gubernatorzy, przez wiele lat obradował tu maltański parlament, a dziś mieści się w nim urząd prezydenta Malty. Zwiedzający oglądają reprezentacyjne sale oraz zbrojownię – jedną z największych zachowanych kolekcji broni i zbroi należących do jednego zakonu rycerskiego, eksponowaną w jego dawnej siedzibie.",
+   "facts": [
+    "W jednej z sal cykl fresków Matteo Pereza d'Aleccio przedstawia przebieg Wielkiego Oblężenia z 1565 roku.",
+    "Sala Gobelinów mieści francuskie tkaniny z egzotycznymi scenami z Indii, Afryki i Ameryki Południowej.",
+    "W zbrojowni są paradne zbroje wielkich mistrzów, m.in. Alofa de Wignacourta."
+   ],
+   "see": [
+    "Korytarze z malowanymi sklepieniami i herbami",
+    "Sala z freskami Wielkiego Oblężenia",
+    "Sala Gobelinów",
+    "Zbrojownia – zbroje, broń, działa"
+   ],
+   "hours": "Codziennie 9:00–17:00, także w niedzielę (ostatnie wejście 16:30)",
+   "price": "W Multisite Pass",
+   "duration": "1–1,5 h",
+   "warnings": [
+    "Sala Tronowa jest zamknięta do odwołania.",
+    "Ostatnie wejście 16:30 – nie przeciągajcie lunchu w Marsaxlokk."
+   ],
+   "food": [
+    "kiosk",
+    "cordina",
+    "isSuq"
+   ],
+   "images": [
+    {
+     "file": "img/grandmaster.jpg",
+     "author": "Marie-Lan Nguyen",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+     "source": "https://commons.wikimedia.org/wiki/File:Grandmasters_Palace_Valletta_n09.jpg",
+     "caption": "Sala Rady w Pałacu Wielkich Mistrzów",
+     "title": "File:Grandmasters Palace Valletta n09.jpg"
+    }
+   ]
+  },
+  "catacombs": {
+   "name": "Katakumby św. Pawła",
+   "kind": "sight",
+   "area": "Rabat",
+   "lat": 35.880419,
+   "lng": 14.3976018,
+   "placeId": "ChIJG9eux5ZRDhMRgOBxE7gDfVI",
+   "url": "https://heritagemalta.mt/explore/st-pauls-catacombs/",
+   "short": "Heritage Malta (w Multisite Pass), ok. 1 h.",
+   "history": "Rzymianie nie chowali zmarłych w obrębie murów miasta, dlatego cmentarze dawnej Meliti powstały poza nimi – na terenie dzisiejszego Rabatu. W miękkim wapieniu wykuto tu labirynt podziemnych korytarzy i komór grobowych, z których w późnej starożytności korzystali poganie, Żydzi i chrześcijanie. Nazwa wiąże kompleks ze św. Pawłem, którego tradycja łączy z pobliską grotą w Rabacie. Zachowały się groby różnych typów: proste nisze w ścianach, groby okienne i charakterystyczne dla Malty groby baldachimowe, wykute jak łoże pod skalnym daszkiem. W kilku komorach stoją okrągłe „stoły agape”, przy których rodziny spożywały ucztę ku pamięci zmarłych.",
+   "facts": [
+    "Stoły agape wykute w skale to rzadkość – na Malcie zachowało się ich wyjątkowo dużo.",
+    "Grota św. Pawła, w której według tradycji przebywał apostoł, jest kilka minut dalej, pod kościołem św. Pawła w Rabacie."
+   ],
+   "see": [
+    "Główny kompleks z grobami baldachimowymi",
+    "Stoły agape",
+    "Mniejsze hypogea na terenie parku",
+    "Centrum dla zwiedzających"
+   ],
+   "hours": "Codziennie 9:00–17:00, ostatnie wejście 16:30 (rozkład zimowy Heritage Malta)",
+   "price": "W Multisite Pass",
+   "duration": "1 h",
+   "warnings": [
+    "Niskie przejścia i strome schodki – wygodne buty, uwaga na głowę.",
+    "W środku chłodno i miejscami ciemno."
+   ],
+   "food": [
+    "crystalPalace",
+    "fontanella"
+   ],
+   "images": [
+    {
+     "file": "img/catacombs.jpg",
+     "author": "Azylber",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:St._Paul's_Catacombs,_Malta_(1).JPG",
+     "caption": "Katakumby św. Pawła w Rabacie",
+     "title": "File:St. Paul's Catacombs, Malta (1).JPG"
+    }
+   ]
+  },
+  "mdina": {
+   "name": "Mdina – „Ciche Miasto”",
+   "kind": "sight",
+   "area": "Mdina",
+   "q": "Mdina Gate Malta",
+   "short": "Brama Główna, kręte uliczki, widok z Bastion Square.",
+   "history": "Mdina była stolicą Malty przez większość jej dziejów: ufortyfikowane wzgórze zamieszkiwali już Fenicjanie, a Rzymianie zbudowali tu miasto Melite. W czasach arabskich zmniejszono obwód murów i wykopano fosę – stąd podział na Mdinę („miasto otoczone murem”) i Rabat („przedmieście”). Tu mieszkała maltańska szlachta i rezydował biskup. Gdy w 1530 roku na wyspę przybyli joannici, osiedlili się w portowym Birgu i Mdina straciła znaczenie polityczne. Po trzęsieniu ziemi z 1693 roku część miasta odbudowano w stylu barokowym, w tym Bramę Główną z 1724 roku. Dziś mieszka tu niewiele osób, a puste, kręte uliczki zasłużyły na przydomek „Ciche Miasto”.",
+   "facts": [
+    "Brama Główna zagrała bramę Królewskiej Przystani w pierwszym sezonie „Gry o tron”.",
+    "Tuż za bramą stoi Pałac Vilhena, dziś Muzeum Historii Naturalnej.",
+    "Kręte ulice miały utrudniać napastnikom strzelanie wzdłuż nich."
+   ],
+   "see": [
+    "Brama Główna z herbami",
+    "Plac Katedralny",
+    "Palazzo Falson – muzeum w średniowiecznym pałacu (opcjonalnie)",
+    "Bastion Square – widok na pół wyspy",
+    "Brama Grecka i uliczki przy murach"
+   ],
+   "hours": "Miasto otwarte całą dobę",
+   "price": "Wstęp wolny",
+   "duration": "1–1,5 h",
+   "warnings": [
+    "Mieszkańcy proszą o ciszę – to dosłownie „Ciche Miasto”."
+   ],
+   "food": [
+    "fontanella",
+    "crystalPalace"
+   ],
+   "images": [
+    {
+     "file": "img/mdina.jpg",
+     "author": "Jean-Christophe BENOIST",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Malta-Mdina-Gate.jpg",
+     "caption": "Brama Główna (Mdina Gate) w Mdinie",
+     "title": "File:Malta-Mdina-Gate.jpg"
+    },
+    {
+     "file": "img/mdina-2.jpg",
+     "author": "Julian Lupyan",
+     "license": "CC0",
+     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Southern_Bastion_and_Wall_of_Mdina,_Malta.jpg",
+     "caption": "Bastiony i mury obronne Mdiny",
+     "title": "File:Southern Bastion and Wall of Mdina, Malta.jpg"
+    }
+   ]
+  },
+  "mdinaCathedral": {
+   "name": "Katedra św. Pawła",
+   "kind": "sight",
+   "area": "Mdina",
+   "lat": 35.8864128,
+   "lng": 14.4037997,
+   "placeId": "ChIJQYG08r9RDhMRqkjwiMzSO3Y",
+   "url": "https://www.metropolitanchapter.com/",
+   "short": "Ok. 15 € z muzeum, opcjonalnie.",
+   "history": "Według tradycji katedra stoi w miejscu domu rzymskiego namiestnika Publiusza, który przyjął św. Pawła po rozbiciu statku u wybrzeży Malty – epizod opisany w Dziejach Apostolskich. Średniowieczny kościół poważnie ucierpiał podczas trzęsienia ziemi w 1693 roku, po którym Lorenzo Gafà zaprojektował nową, barokową katedrę z kopułą widoczną z dużej części wyspy. Z dawnej świątyni ocalał m.in. fresk Mattii Pretiego w apsydzie, przedstawiający rozbicie statku św. Pawła. Posadzkę pokrywają marmurowe płyty nagrobne biskupów i szlachty. W bilet wliczone jest Muzeum Katedralne po drugiej stronie placu, ze zbiorem rycin Albrechta Dürera, monet i szat liturgicznych.",
+   "facts": [
+    "Katedra w Mdinie i konkatedra w Valletcie dzielą status katedry archidiecezji maltańskiej.",
+    "Muzeum Katedralne ma jeden z ważniejszych zbiorów grafik Dürera w tej części Europy."
+   ],
+   "see": [
+    "Barokowe wnętrze i kopuła",
+    "Fresk z rozbiciem statku św. Pawła w apsydzie",
+    "Marmurowe płyty nagrobne w posadzce",
+    "Muzeum Katedralne (ryciny Dürera)"
+   ],
+   "hours": "Sprawdźcie na stronie (w niedzielę krócej)",
+   "price": "Ok. 15 € z muzeum",
+   "duration": "45 min",
+   "warnings": [
+    "Zakryte ramiona i kolana.",
+    "Zwiedzanie wstrzymane w czasie nabożeństw."
+   ],
+   "food": [
+    "fontanella"
+   ],
+   "verify": true,
+   "images": [
+    {
+     "file": "img/mdinaCathedral.jpg",
+     "author": "Frank Vincentz",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Malta_-_Mdina_-_Pjazza_San_Pawl_+_St._Paul's_Cathedral_ex_01_ies.jpg",
+     "caption": "Katedra św. Pawła na placu San Pawl w Mdinie",
+     "title": "File:Malta - Mdina - Pjazza San Pawl + St. Paul's Cathedral ex 01 ies.jpg"
+    }
+   ]
+  },
+  "dingli": {
+   "name": "Klify Dingli",
+   "kind": "sight",
+   "area": "Dingli",
+   "lat": 35.8521402,
+   "lng": 14.3853723,
+   "placeId": "ChIJizWIRkJRDhMRNQqRo8pSjdc",
+   "short": "Kaplica św. Marii Magdaleny, spacer krawędzią, zachód słońca.",
+   "history": "Klify Dingli to najwyżej położony fragment wybrzeża Malty: urwisko opada do morza z wysokości około 250 metrów. Wzdłuż krawędzi biegnie wąska droga i ścieżka, a niżej, na skalnych półkach, rolnicy od pokoleń uprawiają tarasowe poletka. Na samym skraju stoi niewielka kaplica św. Marii Magdaleny z XVII wieku – najczęściej fotografowany punkt klifów. Z góry widać bezludną wysepkę Filfla, którą brytyjskie wojsko przez lata wykorzystywało jako cel ćwiczeń; dziś to rezerwat przyrody z koloniami ptaków morskich. Przy dobrej pogodzie zachód słońca nad otwartym morzem należy tu do najpiękniejszych na wyspie.",
+   "facts": [
+    "Najwyższy punkt Malty, Ta' Dmejrek, leży tuż przy klifach.",
+    "Biała kopuła w okolicy to radar kontroli ruchu lotniczego.",
+    "Na Filflę nie wolno wpływać bez zezwolenia."
+   ],
+   "see": [
+    "Kaplica św. Marii Magdaleny",
+    "Spacer krawędzią klifów",
+    "Widok na Filflę",
+    "Zachód słońca nad morzem"
+   ],
+   "hours": "Teren otwarty",
+   "price": "Wstęp wolny",
+   "duration": "1,5–2 h",
+   "warnings": [
+    "Brak barierek – trzymajcie się z dala od krawędzi, zwłaszcza przy wietrze.",
+    "Po zmroku ciemno, a autobusy rzadkie – latarka w telefonie, Bolt w odwodzie."
+   ],
+   "images": [
+    {
+     "file": "img/dingli.jpg",
+     "author": "Tony Hisgett from Birmingham, UK",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Dingli_cliffs_1_(6796011386).jpg",
+     "caption": "Klify Dingli nad Morzem Śródziemnym",
+     "title": "File:Dingli cliffs 1 (6796011386).jpg"
+    },
+    {
+     "file": "img/dingli-2.jpg",
+     "author": "FritzPhotography",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Chapel_Mary_Magdalene_in_Malta.jpg",
+     "caption": "Kaplica św. Marii Magdaleny na klifach Dingli",
+     "title": "File:Chapel Mary Magdalene in Malta.jpg"
+    }
+   ]
+  },
+  "fortStAngelo": {
+   "name": "Fort St Angelo",
+   "kind": "sight",
+   "area": "Birgu",
+   "lat": 35.8919314,
+   "lng": 14.5186586,
+   "placeId": "ChIJnUdleNVaDhMR1yoxb3uPVEQ",
+   "url": "https://heritagemalta.mt/explore/fort-st-angelo/",
+   "short": "Heritage Malta (w Multisite Pass), ok. 1,5 h.",
+   "history": "Na cyplu Birgu stała warownia już w średniowieczu. Gdy w 1530 roku na Maltę przybyli joannici, zamek stał się siedzibą wielkiego mistrza i został gruntownie przebudowany. Podczas Wielkiego Oblężenia w 1565 roku był sercem obrony – Turcy nigdy go nie zdobyli. Po przeniesieniu stolicy do Valletty fort pełnił funkcje wojskowe, a w XIX i XX wieku służył brytyjskiej Royal Navy, która wpisała go do rejestru jako „okręt” HMS St Angelo. W czasie II wojny światowej był wielokrotnie bombardowany. Po renowacji udostępniono go zwiedzającym, a górną część z kaplicą św. Anny użytkuje Suwerenny Rycerski Zakon Maltański, który wrócił tu na mocy umowy z rządem Malty.",
+   "facts": [
+    "W 1608 roku więziono tu Caravaggia – malarz uciekł z celi wykutej w skale (tzw. guva) i opuścił wyspę.",
+    "Dla Brytyjczyków fort był „kamiennym okrętem” – HMS St Angelo.",
+    "Z murów widać Vallettę, Senglę i wejście do Wielkiego Portu jak na dłoni."
+   ],
+   "see": [
+    "Guva – cela Caravaggia",
+    "Kaplica św. Anny",
+    "Bastiony z widokiem na Wielki Port",
+    "Ekspozycja o historii fortu"
+   ],
+   "hours": "Codziennie 9:00–17:00, ostatnie wejście 16:30 (rozkład zimowy Heritage Malta)",
+   "price": "W Multisite Pass",
+   "duration": "1,5 h",
+   "food": [
+    "donBerto",
+    "talPetut"
+   ],
+   "images": [
+    {
+     "file": "img/fortStAngelo.jpg",
+     "author": "LadyRasella",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Fort_St_Angelo_-_view_from_Upper_Barrakka_Gardens,_Valletta.jpg",
+     "caption": "Fort St. Angelo w Birgu widziany z Upper Barrakka",
+     "title": "File:Fort St Angelo - view from Upper Barrakka Gardens, Valletta.jpg"
+    },
+    {
+     "file": "img/fortStAngelo-2.jpg",
+     "author": "Shoka at English Wikipedia",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Malta_StAngelo_two.jpg",
+     "caption": "Mury Fortu St. Angelo nad Wielkim Portem",
+     "title": "File:Malta StAngelo two.jpg"
+    }
+   ]
+  },
+  "inquisitor": {
+   "name": "Pałac Inkwizytora",
+   "kind": "sight",
+   "area": "Birgu",
+   "lat": 35.887291,
+   "lng": 14.5224506,
+   "placeId": "ChIJq6qqailbDhMRnwUWQc9sj28",
+   "url": "https://heritagemalta.mt/explore/inquisitors-palace/",
+   "short": "Heritage Malta (w Multisite Pass); zamknięty w poniedziałki.",
+   "history": "Budynek powstał w XVI wieku jako siedziba sądu zakonu (Castellania). Gdy joannici przenieśli się do Valletty, przekazano go inkwizytorom rzymskim, którzy rezydowali tu przez ponad dwa stulecia – aż do przybycia Francuzów w 1798 roku. Inkwizytor był na Malcie jednocześnie przedstawicielem papieża i ważnym graczem politycznym, często w sporze z wielkim mistrzem i biskupem. Pałac to jeden z nielicznych zachowanych na świecie budynków tego typu otwartych dla zwiedzających. Zobaczycie apartamenty inkwizytora, salę trybunału i cele więzienne z graffiti wydrapanymi przez więźniów, a także ekspozycję o religijności i życiu codziennym Maltańczyków.",
+   "facts": [
+    "Dwóch inkwizytorów maltańskich zostało później papieżami: Aleksander VII i Innocenty XII.",
+    "Graffiti w celach to m.in. statki, kalendarze i imiona – zapis nudy i strachu więźniów."
+   ],
+   "see": [
+    "Sala trybunału",
+    "Cele więzienne z graffiti",
+    "Apartamenty inkwizytora i kaplica",
+    "Kuchnia i ogród"
+   ],
+   "hours": "Wt–nd 9:00–17:00 (ostatnie wejście 16:30), w poniedziałki zamknięty",
+   "price": "W Multisite Pass",
+   "duration": "1 h",
+   "warnings": [
+    "Zamknięty w poniedziałki."
+   ],
+   "food": [
+    "donBerto",
+    "talPetut"
+   ],
+   "images": [
+    {
+     "file": "img/inquisitor.jpg",
+     "author": "Marie-Lan Nguyen",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+     "source": "https://commons.wikimedia.org/wiki/File:Inquisitor_Palace_Birgu_2012_n01.jpg",
+     "caption": "Dziedziniec Pałacu Inkwizytora w Birgu",
+     "title": "File:Inquisitor Palace Birgu 2012 n01.jpg"
+    }
+   ]
+  },
+  "birgu": {
+   "name": "Birgu (Vittoriosa)",
+   "kind": "sight",
+   "area": "Birgu",
+   "q": "Birgu Waterfront Malta",
+   "short": "Uliczki dawnej dzielnicy rycerzy i nabrzeże z widokiem na Fort St Angelo.",
+   "history": "Birgu było pierwszą siedzibą joannitów po ich przybyciu na Maltę w 1530 roku i główną areną Wielkiego Oblężenia w 1565 roku. Po zwycięstwie miasto otrzymało przydomek Città Vittoriosa – Miasto Zwycięskie. Gdy stolicę przeniesiono do Valletty, Birgu pozostało miastem portowym i stoczniowym. W wąskich uliczkach Collachio – dawnej dzielnicy rycerzy – stoją pierwsze oberże zakonu, a nabrzeże z jachtami i Fort St Angelo na końcu cypla należą do najładniejszych miejsc wokół Wielkiego Portu.",
+   "facts": [
+    "Collachio było zamkniętą dzielnicą zakonu – rycerze mieli tu swoje oberże według „języków”.",
+    "Do Senglei dojdziecie wokół zatoki Dockyard Creek przez Cospicua, ok. 20–25 min."
+   ],
+   "see": [
+    "Nabrzeże z widokiem na Fort St Angelo",
+    "Plac Zwycięstwa",
+    "Uliczki Collachio",
+    "Kościół św. Wawrzyńca"
+   ],
+   "hours": "Całą dobę",
+   "price": "Wstęp wolny",
+   "duration": "1 h",
+   "food": [
+    "donBerto",
+    "talPetut"
+   ]
+  },
+  "gardjola": {
+   "name": "Ogrody Gardjola",
+   "kind": "sight",
+   "area": "Senglea",
+   "q": "Gardjola Gardens Senglea Malta",
+   "short": "Strażnica z okiem i uchem, widok na Vallettę.",
+   "history": "Na samym końcu cypla Senglea (Isla) leży mały ogród na bastionie, a w nim kamienna strażnica – gardjola. Wartownicy pilnowali stąd wejścia do Wielkiego Portu. Na wieżyczce wyrzeźbiono oko i ucho, a także ptaka – symbole czujności: wszystko widzieć, wszystko słyszeć. Z ogrodu widać Vallettę z kopułą karmelitów, Fort St Angelo naprzeciwko i całe ujście portu. To jeden z najbardziej rozpoznawalnych widoków Malty, a zwykle jest tu spokojnie.",
+   "facts": [
+    "Oko i ucho na strażnicy to jedne z najczęściej fotografowanych detali na Malcie.",
+    "Senglea nosi też przydomek Città Invicta – Miasto Niezwyciężone – od obrony w 1565 roku."
+   ],
+   "see": [
+    "Strażnica z okiem i uchem",
+    "Widok na Vallettę i Fort St Angelo"
+   ],
+   "hours": "W ciągu dnia",
+   "price": "Wstęp wolny",
+   "duration": "20–30 min",
+   "warnings": [
+    "Z Senglei wróćcie pieszo do przystani w Birgu (ok. 20 min) albo tradycyjną łódką dgħajsa do Valletty."
+   ],
+   "images": [
+    {
+     "file": "img/gardjola.jpg",
+     "author": "Txllxt TxllxT",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Malta_-_Senglea_-_Gardjola_Gardens_-_La_Guardiola_Safe_Haven_Gardens_-_Echaugette_(reconstructed)_09.jpg",
+     "caption": "Strażnica (vedette) z wyrzeźbionym okiem i uchem w ogrodach Gardjola w Senglei",
+     "title": "File:Malta - Senglea - Gardjola Gardens - La Guardiola Safe Haven Gardens - Echaugette (reconstructed) 09.jpg"
+    }
+   ]
+  },
+  "fortStElmo": {
+   "name": "Fort St Elmo / National War Museum",
+   "kind": "sight",
+   "area": "Valletta",
+   "q": "Fort St Elmo Valletta Malta",
+   "url": "https://heritagemalta.mt/explore/fort-st-elmo-and-the-national-war-museum/",
+   "short": "Heritage Malta (w Multisite Pass); od 9:00 kasa z biletami last-minute do Hypogeum.",
+   "history": "Gwiaździsty fort na końcu półwyspu Sciberras zbudowano w połowie XVI wieku, zanim powstała Valletta, by strzec wejścia do obu portów. W 1565 roku stał się pierwszym celem Turków: niewielka załoga broniła się przez około miesiąc, zanim fort padł. Ten czas okazał się kluczowy – opóźnił atak na Birgu i Senglę i pozwolił doczekać odsieczy. Po oblężeniu za fortem zbudowano Vallettę. W 1941 roku jego załoga odparła atak włoskich łodzi wybuchowych na port. Dziś mieści się tu Narodowe Muzeum Wojny z ekspozycją od prehistorii po II wojnę światową – z Krzyżem Jerzego nadanym Malcie w 1942 roku i dwupłatowcem Gloster Gladiator „Faith”.",
+   "facts": [
+    "Krzyż Jerzego widnieje do dziś na fladze Malty.",
+    "„Faith” to jeden z Gladiatorów, które według legendy – Faith, Hope i Charity – broniły wyspy w pierwszych tygodniach wojny.",
+    "Tu od 9:00 działa kasa z biletami last-minute do Hypogeum."
+   ],
+   "see": [
+    "Narodowe Muzeum Wojny",
+    "Krzyż Jerzego",
+    "Gladiator „Faith”",
+    "Mury i dziedziniec fortu"
+   ],
+   "hours": "Codziennie 9:00–17:00, ostatnie wejście 16:30 (rozkład zimowy Heritage Malta)",
+   "price": "W Multisite Pass",
+   "duration": "1–1,5 h",
+   "food": [
+    "cordina",
+    "piadina"
+   ],
+   "images": [
+    {
+     "file": "img/fortStElmo.jpg",
+     "author": "Dion Hinchcliffe",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Valletta,_Malta_-_2018_(39570984425).jpg",
+     "caption": "Fort St. Elmo na cyplu Valletty z lotu ptaka",
+     "title": "File:Valletta, Malta - 2018 (39570984425).jpg"
+    }
+   ]
+  },
+  "lowerBarrakka": {
+   "name": "Lower Barrakka i Siege Bell",
+   "kind": "sight",
+   "area": "Valletta",
+   "q": "Lower Barrakka Gardens Valletta Malta",
+   "short": "Spokojny ogród z widokiem na wejście do portu; obok dzwon upamiętniający oblężenie z II wojny światowej.",
+   "history": "Mniejszy i spokojniejszy brat Upper Barrakka. W ogrodzie stoi neoklasycystyczna świątynka ku czci Alexandra Balla, pierwszego brytyjskiego zarządcy Malty. Poniżej, nad wejściem do Wielkiego Portu, wznosi się Siege Bell Memorial – pomnik z dzwonem upamiętniający ofiary oblężenia wyspy w latach II wojny światowej.",
+   "see": [
+    "Świątynka Balla",
+    "Siege Bell Memorial",
+    "Widok na falochron i wejście do portu"
+   ],
+   "hours": "W ciągu dnia",
+   "price": "Wstęp wolny",
+   "duration": "30 min"
+  },
+  "vallettaStreets": {
+   "name": "Republic Street i Merchants Street",
+   "kind": "sight",
+   "area": "Valletta",
+   "q": "Merchants Street Valletta Malta",
+   "short": "Dwie główne, równoległe ulice Valletty: sklepy, kawiarnie, pałace zakonu.",
+   "history": "Valletta została zaprojektowana po Wielkim Oblężeniu jako miasto na planie siatki – proste ulice biegną wzdłuż grzbietu półwyspu od City Gate do Fort St Elmo, a poprzeczne opadają stromo ku obu portom, często schodami. Republic Street to główny deptak z pałacami i placami, a równoległa Merchants Street – ulica kupców, przy której stoi dawny targ. Wieczorem warto skręcić w Strait Street.",
+   "see": [
+    "Plac Św. Jerzego przed Pałacem Wielkiego Mistrza",
+    "Gmach parlamentu i ruiny Opery przy City Gate",
+    "Balkony gallarija na bocznych uliczkach",
+    "Schody św. Łucji"
+   ],
+   "hours": "Sklepy zwykle do ok. 19:00",
+   "price": "–",
+   "duration": "1–2 h",
+   "food": [
+    "cordina",
+    "isSuq",
+    "piadina"
+   ]
+  },
+  "straitStreet": {
+   "name": "Strait Street",
+   "kind": "sight",
+   "area": "Valletta",
+   "q": "Strait Street Valletta Malta",
+   "short": "Dawna ulica marynarzy, dziś bary.",
+   "history": "Wąska ulica równoległa do Republic Street była w XIX i XX wieku centrum rozrywki marynarzy brytyjskiej floty – pełna barów, kabaretów i sal muzycznych, znana jako „The Gut”. Po wycofaniu Royal Navy z Malty opustoszała na dekady. W ostatnich latach odżyła: w odnowionych lokalach działają bary koktajlowe i winiarnie, a stare szyldy przypominają o dawnej sławie. Według legendy w czasach zakonu tylko tu tolerowano pojedynki rycerzy.",
+   "see": [
+    "Stare szyldy barów",
+    "Wieczorna atmosfera"
+   ],
+   "hours": "Bary od popołudnia",
+   "price": "–",
+   "duration": "dowolnie",
+   "food": [
+    "isSuq"
+   ]
+  },
+  "gozoFerry": {
+   "name": "Gozo Highspeed (dawniej Gozo Fast Ferry)",
+   "kind": "transport",
+   "area": "Valletta",
+   "lat": 35.8946699,
+   "lng": 14.5136891,
+   "placeId": "ChIJnz-AfydbDhMRsQljzHa638k",
+   "url": "https://gozohighspeed.com/pages/fares-and-schedule",
+   "short": "Szybki prom Valletta – Mġarr, ok. 45 min, ok. 7,50 € w jedną stronę. Bilet online dzień wcześniej.",
+   "history": "Szybki katamaran pasażerski (dawne Gozo Fast Ferry i Virtu połączyły się w Gozo Highspeed) łączy nabrzeże w Valletcie z portem Mġarr na Gozo w około 45 minut. Bez samochodu to najwygodniejsza opcja ze Sliemy – klasyczny prom Gozo Channel odpływa z Ċirkewwy na północnym krańcu Malty, ponad godzinę autobusem od hotelu.",
+   "hours": "Kursy przez cały dzień, mniej więcej co 45–60 min; pierwszy z Valletty ok. 6:45; ostatni z Mġarr w dni powszednie ok. 21:15",
+   "price": "Ok. 7,50 €/kurs",
+   "duration": "45 min",
+   "warnings": [
+    "Przy wysokiej fali kursy bywają odwołane – sprawdźcie rano stronę.",
+    "Na przystań przyjdźcie 15–20 min przed odpłynięciem.",
+    "Plan B: prom Gozo Channel z Ċirkewwy (płaci się w drodze powrotnej z Gozo)."
+   ],
+   "verify": true
+  },
+  "mgarr": {
+   "name": "Port Mġarr",
+   "kind": "transport",
+   "area": "Gozo",
+   "q": "Mgarr Harbour Gozo",
+   "short": "Przystanek 1 hop-on hop-off, autobus 301 do Victorii.",
+   "history": "Główny port Gozo, do którego przypływają promy z Malty. Nad przystanią góruje neogotycki kościół Matki Bożej z Lourdes. Przy nabrzeżu są przystanki autobusów miejskich i hop-on hop-off.",
+   "hours": "–",
+   "price": "–",
+   "duration": "–",
+   "images": [
+    {
+     "file": "img/mgarr.jpg",
+     "author": "Florival fr",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Malte,_Gozo,_port_de_Mgarr_&_ferrys_&_Comino.jpg",
+     "caption": "Port Mġarr na Gozo z promami, w tle Comino",
+     "title": "File:Malte, Gozo, port de Mgarr & ferrys & Comino.jpg"
+    }
+   ]
+  },
+  "hoponGozo": {
+   "name": "Hop-on hop-off Gozo (City Sightseeing)",
+   "kind": "transport",
+   "area": "Gozo",
+   "q": "City Sightseeing Gozo Mgarr",
+   "short": "Ok. 20–25 €/os, autobus co ok. 45 min. Zimą: trasa fioletowa (zachodnia) ok. 9:45–15:00, niebieska (wschodnia) ok. 11:35–16:45. Bilet w porcie, przystanek 1.",
+   "history": "Dwie trasy po wyspie: zachodnia (fioletowa) – Victoria, Ta' Pinu, Dwejra, Xlendi; wschodnia (niebieska) – Xagħra i Ġgantija, Ramla Bay, Marsalforn. Bilet kupicie w porcie Mġarr na przystanku nr 1.",
+   "hours": "Zimą: fioletowa ok. 9:45–15:00, niebieska ok. 11:35–16:45",
+   "price": "Ok. 20–25 €/os",
+   "duration": "Co ok. 45 min",
+   "verify": true,
+   "url": "https://www.citysightseeing.com.mt/en/our-tours.htm"
+  },
+  "cittadella": {
+   "name": "Cittadella, Victoria",
+   "kind": "sight",
+   "area": "Gozo",
+   "lat": 36.0465151,
+   "lng": 14.2397758,
+   "placeId": "ChIJB9tm4le0DxMRXsApoHftRN4",
+   "url": "https://heritagemalta.mt/explore/the-cittadella/",
+   "short": "Heritage Malta (centrum dla zwiedzających w Multisite Pass). Gozo Museum of Archaeology jest zamknięte w remoncie, ale jego sklep sprzedaje bilety last-minute do Hypogeum.",
+   "history": "Wzgórze nad Victorią zamieszkiwano i umacniano od tysięcy lat; w średniowieczu cytadela była schronieniem mieszkańców Gozo w czasie najazdów. Nie zawsze skutecznym: w 1551 roku najazd osmański zakończył się uprowadzeniem w niewolę niemal całej ludności wyspy. Po tej tragedii joannici przebudowali i wzmocnili mury. Wewnątrz stoi barokowa katedra Wniebowzięcia, Stare Więzienie i kilka muzeów, w tym Muzeum Archeologiczne Gozo z zabytkami z Ġgantiji. Po niedawnej renowacji mury można obejść dookoła – widać z nich praktycznie całą wyspę.",
+   "facts": [
+    "Katedra nie ma kopuły – jej iluzję namalowano na płaskim suficie; najlepiej widać to ze środka nawy.",
+    "Victoria dostała nazwę na cześć królowej Wiktorii pod koniec XIX wieku, ale miejscowi wciąż mówią na nią Rabat.",
+    "Z murów zobaczycie m.in. Xagħrę i kopułę bazyliki Ta' Pinu."
+   ],
+   "see": [
+    "Spacer po murach dookoła",
+    "Katedra z malowaną kopułą",
+    "Muzeum Archeologiczne Gozo",
+    "Stare Więzienie z graffiti",
+    "Centrum dla zwiedzających"
+   ],
+   "hours": "Mury otwarte; Stare Więzienie i muzea wt–nd 9:00–17:00; centrum dla zwiedzających – sprawdźcie",
+   "price": "Mury: wstęp wolny; centrum i muzea w Multisite Pass",
+   "duration": "1,5 h",
+   "food": [
+    "taRikardu"
+   ],
+   "verify": true,
+   "images": [
+    {
+     "file": "img/cittadella.jpg",
+     "author": "Matthew Benn",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Citadel-Gozo.jpg",
+     "caption": "Cytadela w Victorii górująca nad miastem",
+     "title": "File:Citadel-Gozo.jpg"
+    },
+    {
+     "file": "img/cittadella-2.jpg",
+     "author": "Matt Hush",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Gozo_Citadel.jpg",
+     "caption": "Bastiony Cytadeli w Victorii na Gozo",
+     "title": "File:Gozo Citadel.jpg"
+    }
+   ]
+  },
+  "ggantija": {
+   "name": "Świątynie Ġgantija",
+   "kind": "sight",
+   "area": "Gozo (Xagħra)",
+   "lat": 36.0489144,
+   "lng": 14.2678184,
+   "placeId": "ChIJk8jh_Nu0DxMR6LWcGLbQ7Pg",
+   "url": "https://heritagemalta.mt/explore/ggantija-archaeological-park/",
+   "short": "Heritage Malta (w Multisite Pass), w cenie wiatrak Ta' Kola.",
+   "history": "Dwie świątynie Ġgantiji powstały w epoce neolitu, ponad tysiąc lat przed egipskimi piramidami, i należą do najstarszych wolnostojących budowli kamiennych na świecie. Zbudowano je z ogromnych bloków wapienia, z których część waży wiele ton. Mieszkańcy Gozo tłumaczyli ich rozmiar legendą o olbrzymce, która miała wznieść mury – stąd nazwa od słowa „ġgant” (olbrzym). Wnętrza mają charakterystyczny dla maltańskich świątyń plan z półkolistymi absydami i ołtarzami. Razem z innymi świątyniami megalitycznymi Malty kompleks jest wpisany na listę UNESCO. Przed wejściem działa centrum z oryginalnymi znaleziskami.",
+   "facts": [
+    "Świątynie są starsze od Stonehenge.",
+    "Bilet obejmuje XVIII-wieczny wiatrak Ta' Kola w Xagħrze z dawnymi narzędziami młynarza.",
+    "Wiatrak Ta' Kola jest czynny w tych samych godzinach co park (9:00–17:00)."
+   ],
+   "see": [
+    "Świątynia południowa i północna",
+    "Ogromne bloki muru zewnętrznego",
+    "Centrum z oryginalnymi znaleziskami",
+    "Wiatrak Ta' Kola (ok. 10 min pieszo)"
+   ],
+   "hours": "Codziennie 9:00–17:00, ostatnie wejście 16:30 (rozkład zimowy Heritage Malta)",
+   "price": "W Multisite Pass",
+   "duration": "1 h",
+   "food": [
+    "taRikardu"
+   ],
+   "images": [
+    {
+     "file": "img/ggantija.jpg",
+     "author": "FritzPhotography",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Ggantija_Temple_on_Gozo.jpg",
+     "caption": "Świątynie Ġgantija w Xagħrze z lotu ptaka",
+     "title": "File:Ggantija Temple on Gozo.jpg"
+    }
+   ]
+  },
+  "dwejra": {
+   "name": "Dwejra – Inland Sea",
+   "kind": "sight",
+   "area": "Gozo",
+   "lat": 36.053715,
+   "lng": 14.191094,
+   "placeId": "ChIJP2Hp84K2DxMREms65xuW2bQ",
+   "short": "Łódź przez tunel ok. 5 € gotówką, przy spokojnym morzu; Fungus Rock.",
+   "history": "Dwejra na zachodnim wybrzeżu Gozo to krajobraz wyrzeźbiony przez morze i zapadające się jaskinie. Inland Sea to płytka laguna połączona z otwartym morzem tunelem w klifie, przez który przy spokojnej wodzie przepływają małe łodzie. Obok wznosi się Fungus Rock – skała, na której rośnie rzadka pasożytnicza roślina zwana „grzybem maltańskim”, uważana przez joannitów za cenny lek; dostęp do skały był pilnie strzeżony. W 2017 roku w czasie sztormu zawaliło się słynne Azure Window, skalne okno, które było symbolem Gozo. Nad zatoką stoi XVII-wieczna wieża strażnicza.",
+   "facts": [
+    "Rejs przez tunel wypływa na otwarte morze pod pionowymi klifami.",
+    "Za kradzież „grzyba” z Fungus Rock groziły surowe kary.",
+    "Blue Hole obok miejsca po Azure Window to jedno z najbardziej znanych miejsc nurkowych na Malcie."
+   ],
+   "see": [
+    "Inland Sea i rejs łodzią przez tunel",
+    "Fungus Rock",
+    "Miejsce po Azure Window",
+    "Wieża Dwejra"
+   ],
+   "hours": "Łodzie w ciągu dnia, gdy morze spokojne",
+   "price": "Łódź ok. 5 € gotówką",
+   "duration": "1 h",
+   "warnings": [
+    "Łódki pływają tylko przy spokojnym morzu.",
+    "Ostre skały – pełne buty.",
+    "Tylko gotówka."
+   ],
+   "images": [
+    {
+     "file": "img/dwejra.jpg",
+     "author": "Ysangkok",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Inland_sea.jpeg",
+     "caption": "Inland Sea w Dwejrze – tunel skalny na otwarte morze",
+     "title": "File:Inland sea.jpeg"
+    },
+    {
+     "file": "img/dwejra-2.jpg",
+     "author": "G.Mannaerts",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Fungus_rock_2017.jpg",
+     "caption": "Skała Fungus Rock w zatoce Dwejra",
+     "title": "File:Fungus rock 2017.jpg"
+    }
+   ]
+  },
+  "xlendi": {
+   "name": "Xlendi",
+   "kind": "sight",
+   "area": "Gozo",
+   "lat": 36.0284978,
+   "lng": 14.213798,
+   "placeId": "ChIJVyQHPW20DxMRcUAZsAyufsw",
+   "short": "Zatoka, kawa.",
+   "history": "Niewielka zatoka na końcu wąskiej doliny na południowo-zachodnim wybrzeżu Gozo. Dawna wioska rybacka zamieniła się w spokojny kurort z kawiarniami przy nabrzeżu. Strome klify po obu stronach i XVII-wieczna wieża strażnicza tworzą jeden z najładniejszych zakątków wyspy.",
+   "see": [
+    "Nabrzeże i zatoka",
+    "Ścieżka wzdłuż klifu do wieży Xlendi"
+   ],
+   "hours": "–",
+   "price": "–",
+   "duration": "45 min",
+   "images": [
+    {
+     "file": "img/xlendi.jpg",
+     "author": "Karelj",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Xlendi_Bay_Gozo_Malta_2014_1.jpg",
+     "caption": "Zatoka Xlendi na Gozo",
+     "title": "File:Xlendi Bay Gozo Malta 2014 1.jpg"
+    }
+   ]
+  },
+  "tapinu": {
+   "name": "Bazylika Ta' Pinu",
+   "kind": "sight",
+   "area": "Gozo",
+   "q": "Ta' Pinu Basilica Gharb Gozo",
+   "short": "Narodowe sanktuarium maryjne; z trasy zachodniej widać ją z okna autobusu.",
+   "history": "Narodowe sanktuarium maryjne Malty i Gozo stoi samotnie wśród pól niedaleko wioski Għarb. Neoromańską bazylikę zbudowano w XX wieku w miejscu małej kaplicy, z którą wiąże się relacja z 1883 roku: wieśniaczka Karmela Grima miała tu usłyszeć głos Matki Bożej. Sanktuarium stało się celem pielgrzymek; w bocznym korytarzu zgromadzono tysiące wotów – listów, zdjęć, sukni ślubnych, kul i gipsów. W 1990 roku modlił się tu Jan Paweł II.",
+   "see": [
+    "Bazylika wśród pól",
+    "Korytarz z wotami (jeśli wysiądziecie)"
+   ],
+   "hours": "–",
+   "price": "Wstęp wolny",
+   "duration": "z okna lub 30 min",
+   "images": [
+    {
+     "file": "img/tapinu.jpg",
+     "author": "Xanella22",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Ta’_Pinu_National_Shrine.jpg",
+     "caption": "Bazylika Ta' Pinu na Gozo",
+     "title": "File:Ta’ Pinu National Shrine.jpg"
+    }
+   ]
+  },
+  "ramla": {
+   "name": "Ramla Bay",
+   "kind": "sight",
+   "area": "Gozo",
+   "q": "Ramla Bay Gozo",
+   "short": "Czerwona plaża, trasa wschodnia.",
+   "history": "Największa piaszczysta plaża Gozo, z charakterystycznym rudawym piaskiem, w zielonej dolinie na północnym wybrzeżu. Nad nią, na zboczu, znajduje się Grota Kalipso – tradycja utożsamia Gozo z homerycką wyspą Ogygią, na której nimfa Kalipso zatrzymała Odyseusza. Sama grota bywa zamknięta ze względów bezpieczeństwa, ale punkt widokowy nad zatoką jest dostępny. W listopadzie plaża jest zwykle pusta.",
+   "see": [
+    "Rudawy piasek z bliska",
+    "Widok z punktu nad Grotą Kalipso"
+   ],
+   "hours": "–",
+   "price": "Wstęp wolny",
+   "duration": "z okna lub 30 min",
+   "images": [
+    {
+     "file": "img/ramla.jpg",
+     "author": "William Shewring",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Ramla_Bay.jpg",
+     "caption": "Czerwony piasek plaży Ramla Bay na Gozo",
+     "title": "File:Ramla Bay.jpg"
+    }
+   ]
+  },
+  "hypogeum": {
+   "name": "Hypogeum Ħal Saflieni",
+   "kind": "sight",
+   "area": "Paola",
+   "lat": 35.8695748,
+   "lng": 14.506864,
+   "placeId": "ChIJy6WOsOhaDhMR6ijmChZNFgA",
+   "url": "https://heritagemalta.mt/explore/hal-saflieni-hypogeum/",
+   "short": "15 min przed turą, pełne buty, zakaz zdjęć; ok. 1 h z audioprzewodnikiem.",
+   "history": "Hypogeum Ħal Saflieni to podziemny kompleks wykuty w skale na trzech poziomach, z którego mieszkańcy Malty korzystali przez ponad tysiąc lat w epoce neolitu – jako miejsca pochówku i najpewniej obrzędów. Odkryto je przypadkiem na początku XX wieku, gdy robotnicy kopiący cysterny pod nowymi domami w Paoli przebili się do komór. Wnętrza naśladują architekturę naziemnych świątyń: wykute w skale belki, nadproża i absydy. Na sufitach zachowały się spirale malowane czerwoną ochrą. Tu znaleziono figurkę Śpiącej Damy, dziś w Muzeum Archeologicznym w Valletcie. Ze względu na delikatny mikroklimat wpuszcza się bardzo małe grupy, a obiekt jest na liście UNESCO.",
+   "facts": [
+    "W tzw. Sali Wyroczni niski męski głos rezonuje w całym kompleksie.",
+    "W komorach znaleziono szczątki tysięcy osób – to jeden z największych cmentarzy prehistorycznej Europy.",
+    "Bilet do Hypogeum daje 50% zniżki na wstęp do Tarxien przy zakupie na miejscu (z Multisite Pass i tak wchodzicie)."
+   ],
+   "see": [
+    "Sala Wyroczni",
+    "„Święte Świętych” – komora naśladująca fasadę świątyni",
+    "Spirale malowane czerwoną ochrą",
+    "Trzy poziomy komór"
+   ],
+   "hours": "Codziennie 10:00–18:00, grupy maks. 10 osób; last-minute zwykle tury 12:00 i 16:00",
+   "price": "Online 35 €/os; last-minute 50 €/os",
+   "duration": "ok. 1 h z audioprzewodnikiem",
+   "warnings": [
+    "Bądźcie 15 min przed turą – spóźnienie może oznaczać utratę wejścia.",
+    "Pełne buty.",
+    "Zakaz robienia zdjęć; torby do szafek."
+   ],
+   "food": [
+    "rubino"
+   ],
+   "images": [
+    {
+     "file": "img/hypogeum.jpg",
+     "author": "Hamelin de Guettelet",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Hypogée_Hal_Saflieni.jpg",
+     "caption": "Wykute w skale komory Hypogeum Ħal Saflieni",
+     "title": "File:Hypogée Hal Saflieni.jpg"
+    }
+   ]
+  },
+  "tarxien": {
+   "name": "Świątynie Tarxien",
+   "kind": "sight",
+   "area": "Paola / Tarxien",
+   "lat": 35.86918,
+   "lng": 14.511933,
+   "placeId": "ChIJoVrKvOZaDhMRyudK0lIzTG8",
+   "url": "https://heritagemalta.mt/explore/tarxien-temples/",
+   "short": "Heritage Malta (w Multisite Pass), 10 min pieszo od Hypogeum.",
+   "history": "Zespół czterech połączonych świątyń megalitycznych odkrył w 1914 roku rolnik, którego pług ciągle zahaczał o duże kamienie. Wykopaliska poprowadził Themistocles Zammit, ojciec maltańskiej archeologii. Świątynie reprezentują najpóźniejszą fazę budownictwa megalitycznego na Malcie i mają najbogatszą dekorację: kamienne płyty pokrywają spirale i fryzy ze zwierzętami – kozami, owcami i świniami. Zachowała się też dolna część kolosalnego posągu „grubej damy”. Na miejscu stoją kopie, oryginały są w Muzeum Archeologicznym w Valletcie. Teren przykrywa lekkie zadaszenie chroniące kamień przed deszczem i słońcem.",
+   "facts": [
+    "Po opuszczeniu świątyń ludzie epoki brązu urządzili tu cmentarz ciałopalny.",
+    "Z kolosalnego posągu przetrwały tylko nogi i spódnica – wystarczy, by wyobrazić sobie jego skalę."
+   ],
+   "see": [
+    "Płyty ze spiralami",
+    "Fryz ze zwierzętami",
+    "Dolna część kolosalnego posągu",
+    "Ołtarze z otworami"
+   ],
+   "hours": "Codziennie 9:00–17:00, ostatnie wejście 16:30 (rozkład zimowy Heritage Malta)",
+   "price": "W Multisite Pass",
+   "duration": "1 h",
+   "warnings": [
+    "W kasie Hypogeum zapytajcie, czy jest dostępny sam pokaz audiowizualny (bywa bez rezerwacji)."
+   ],
+   "images": [
+    {
+     "file": "img/tarxien.jpg",
+     "author": "Joonas L.",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Tarxien_temple.jpg",
+     "caption": "Megalityczne świątynie Tarxien",
+     "title": "File:Tarxien temple.jpg"
+    }
+   ]
+  },
+  "blueGrotto": {
+   "name": "Blue Grotto",
+   "kind": "sight",
+   "area": "Wied iż-Żurrieq",
+   "lat": 35.8197615,
+   "lng": 14.4517904,
+   "placeId": "ChIJC3xZALVQDhMRdiAwEGrlQcY",
+   "url": "http://www.bluegrottomalta.com.mt/",
+   "short": "Łódź ok. 10 €, 20 min, tylko gotówka, zależy od morza.",
+   "history": "Blue Grotto to skalny łuk i system jaskiń morskich w klifach południowego wybrzeża, do których wypływa się łódką z małej przystani Wied iż-Żurrieq. Przy spokojnym morzu i porannym słońcu woda w grotach świeci intensywnym błękitem i turkusem – światło odbija się od jasnego dna. Rejs trwa około 20 minut i obejmuje kilka grot. Przy wietrze i fali łodzie nie wypływają. Nawet bez rejsu warto zobaczyć łuk z punktu widokowego przy drodze nad przystanią; na horyzoncie widać wysepkę Filfla.",
+   "facts": [
+    "Kolory są najlepsze przed południem, gdy słońce świeci do wnętrza grot.",
+    "Łodzie to kolorowe, tradycyjne łodzie rybackie."
+   ],
+   "see": [
+    "Rejs łodzią do grot",
+    "Punkt widokowy na łuk przy drodze",
+    "Przystań Wied iż-Żurrieq"
+   ],
+   "hours": "Łodzie w ciągu dnia, przy spokojnym morzu",
+   "price": "Łódź ok. 10 €/os, gotówka",
+   "duration": "1 h z rejsem",
+   "warnings": [
+    "Tylko gotówka.",
+    "Łodzie nie pływają przy fali – rano sprawdźcie stan morza."
+   ],
+   "food": [
+    "blueCave"
+   ],
+   "images": [
+    {
+     "file": "img/blueGrotto.jpg",
+     "author": "Joonas L.",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Blue_Grotto_Malta.jpg",
+     "caption": "Łuk skalny Blue Grotto (Wied iż-Żurrieq)",
+     "title": "File:Blue Grotto Malta.jpg"
+    },
+    {
+     "file": "img/blueGrotto-2.jpg",
+     "author": "Ethan Doyle White",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Wied_Iż-Żurrieq_Harbour.jpg",
+     "caption": "Łodzie w przystani Wied iż-Żurrieq, skąd wypływają rejsy do Blue Grotto",
+     "title": "File:Wied Iż-Żurrieq Harbour.jpg"
+    }
+   ]
+  },
+  "hagarQim": {
+   "name": "Ħaġar Qim i Mnajdra",
+   "kind": "sight",
+   "area": "Qrendi",
+   "lat": 35.8276898,
+   "lng": 14.4420772,
+   "placeId": "ChIJeaxoR89QDhMRi6GYXIptHTw",
+   "url": "https://heritagemalta.mt/explore/hagar-qim-and-mnajdra-archaeological-park/",
+   "short": "Heritage Malta (w Multisite Pass), 1,5 h; 25 min pod górę od Blue Grotto.",
+   "history": "Dwie świątynie na wysokim brzegu nad morzem należą do najlepiej zachowanych megalitycznych sanktuariów Malty wpisanych na listę UNESCO. Ħaġar Qim zbudowano z miękkiego wapienia globigerinowego, dlatego bloki są ogromne, a powierzchnie mocno zwietrzałe. Tu znaleziono słynne „grube figury” i Wenus z Malty. Kilkaset metrów niżej, ścieżką w stronę morza, stoi Mnajdra, zbudowana z twardszego wapienia koralowego. Jej dolna świątynia jest zorientowana według słońca: w dni równonocy pierwsze promienie wpadają prosto przez główne wejście, a w czasie przesileń oświetlają krawędzie kamiennych płyt. Oba kompleksy przykrywają namioty ochronne, a w centrum dla zwiedzających działa krótki film wprowadzający.",
+   "facts": [
+    "Świątynia z Mnajdry widnieje na maltańskich monetach 1, 2 i 5 centów.",
+    "Wenus z Malty z Ħaġar Qim jest w Muzeum Archeologicznym w Valletcie.",
+    "Ze ścieżki do Mnajdry widać wysepkę Filfla."
+   ],
+   "see": [
+    "Ħaġar Qim – ogromne bloki i fasada",
+    "Ścieżka nad morzem do Mnajdry",
+    "Mnajdra – dolna świątynia zorientowana według słońca",
+    "Centrum dla zwiedzających (film)"
+   ],
+   "hours": "Codziennie 9:00–17:00, ostatnie wejście 16:30",
+   "price": "W Multisite Pass",
+   "duration": "1,5 h",
+   "food": [
+    "blueCave"
+   ],
+   "images": [
+    {
+     "file": "img/hagarQim.jpg",
+     "author": "Hamelin de Guettelet",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Facade_Hagar_Qim.jpg",
+     "caption": "Fasada megalitycznej świątyni Ħaġar Qim",
+     "title": "File:Facade Hagar Qim.jpg"
+    },
+    {
+     "file": "img/hagarQim-2.jpg",
+     "author": "Alecastorina93",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Mnajdra.jpg",
+     "caption": "Świątynia Mnajdra nad morzem",
+     "title": "File:Mnajdra.jpg"
+    }
+   ]
+  },
+  "stJohns": {
+   "name": "Konkatedra św. Jana",
+   "kind": "sight",
+   "area": "Valletta",
+   "lat": 35.8975921,
+   "lng": 14.5124951,
+   "placeId": "ChIJbXBWgCxFDhMRz9geY_Enn2c",
+   "url": "https://www.stjohnscocathedral.com/",
+   "short": "Ok. 15 €, bilet online; pn–sb, w niedzielę zamknięta. Caravaggio w Oratorium.",
+   "history": "Kościół konwentualny joannitów zbudowano w latach 70. XVI wieku według projektu maltańskiego architekta Girolama Cassara. Surowa, niemal forteczna fasada nie zdradza, co kryje wnętrze: w XVII wieku Mattia Preti pokrył sklepienie nawy scenami z życia św. Jana Chrzciciela, a ściany wypełniła złocona barokowa dekoracja. Boczne kaplice należały do poszczególnych „języków” zakonu – narodowych oddziałów rycerzy. Posadzkę tworzy kilkaset marmurowych płyt nagrobnych rycerzy, inkrustowanych herbami, szkieletami i alegoriami. W Oratorium wiszą dwa obrazy Caravaggia, w tym monumentalne „Ścięcie św. Jana Chrzciciela” – jedyne dzieło, które artysta podpisał.",
+   "facts": [
+    "Caravaggio umieścił podpis w strudze krwi wypływającej z szyi Jana.",
+    "Obowiązuje zakaz szpilek – chodzi o ochronę marmurowej posadzki.",
+    "W muzeum katedralnym wiszą flamandzkie gobeliny tkane według projektów Rubensa."
+   ],
+   "see": [
+    "Sklepienie Mattii Pretiego",
+    "Płyty nagrobne rycerzy w posadzce",
+    "Kaplice „języków” zakonu",
+    "Oratorium z obrazami Caravaggia",
+    "Muzeum z gobelinami"
+   ],
+   "hours": "Pn–sb 9:00–16:45 (ostatnie wejście 16:15); w niedziele i święta zamknięta",
+   "price": "15 €, bilet online",
+   "duration": "1,5 h",
+   "warnings": [
+    "Zakryte ramiona i kolana.",
+    "Bez szpilek.",
+    "W niedzielę nieczynna."
+   ],
+   "food": [
+    "cordina",
+    "piadina",
+    "isSuq"
+   ],
+   "images": [
+    {
+     "file": "img/stJohns.jpg",
+     "author": "MairCalvo",
+     "license": "CC0",
+     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Co-CatedralSãoJoãoValettaNave1.jpg",
+     "caption": "Wnętrze konkatedry św. Jana – nawa główna",
+     "title": "File:Co-CatedralSãoJoãoValettaNave1.jpg"
+    },
+    {
+     "file": "img/stJohns-2.jpg",
+     "author": "Julian Lupyan",
+     "license": "CC0",
+     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Facade_of_St._John's_Co-Cathedral,_Valletta,_Malta.jpg",
+     "caption": "Fasada konkatedry św. Jana w Valletcie",
+     "title": "File:Facade of St. John's Co-Cathedral, Valletta, Malta.jpg"
+    }
+   ]
+  },
+  "archaeology": {
+   "name": "Muzeum Archeologiczne",
+   "kind": "sight",
+   "area": "Valletta",
+   "q": "National Museum of Archaeology Valletta",
+   "url": "https://heritagemalta.mt/explore/national-museum-of-archaeology/",
+   "short": "Heritage Malta (w Multisite Pass); Śpiąca Dama i Wenus z Malty.",
+   "history": "Muzeum mieści się w Auberge de Provence – XVI-wiecznej siedzibie rycerzy z języka prowansalskiego przy Republic Street. Prezentuje przede wszystkim prehistorię Malty: znaleziska ze świątyń megalitycznych i Hypogeum, w tym słynną Śpiącą Damę – niewielką figurkę kobiety leżącej na boku – oraz Wenus z Malty i masywne „grube figury”. Są tu też oryginalne płyty ze spiralami z Tarxien oraz sale poświęcone epoce brązu i Fenicjanom. To dobre uzupełnienie wizyt w świątyniach, gdzie zostały głównie kopie.",
+   "facts": [
+    "Śpiąca Dama pochodzi z Hypogeum Ħal Saflieni.",
+    "Fenicka kolumienka (cippus) z dwujęzycznym napisem pomogła w XVIII wieku odczytać pismo fenickie; jej bliźniaczka stoi w Luwrze."
+   ],
+   "see": [
+    "Śpiąca Dama",
+    "Wenus z Malty",
+    "Grube figury",
+    "Oryginalne płyty z Tarxien",
+    "Zabytki fenickie"
+   ],
+   "hours": "Codziennie 9:00–17:00, ostatnie wejście 16:30 (rozkład zimowy Heritage Malta)",
+   "price": "W Multisite Pass",
+   "duration": "45 min",
+   "food": [
+    "cordina",
+    "piadina"
+   ],
+   "images": [
+    {
+     "file": "img/archaeology.jpg",
+     "author": "Jan van der Crabben",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:The_Sleeping_Lady,_2009.jpg",
+     "caption": "„Śpiąca Dama” z Hypogeum w Narodowym Muzeum Archeologii",
+     "title": "File:The Sleeping Lady, 2009.jpg"
+    }
+   ]
+  },
+  "lascaris": {
+   "name": "Lascaris War Rooms",
+   "kind": "sight",
+   "area": "Valletta",
+   "lat": 35.8949343,
+   "lng": 14.5126397,
+   "placeId": "ChIJ748UVNNaDhMRqUGX4FPJ5eA",
+   "url": "http://www.lascariswarrooms.com/",
+   "short": "20 €; wejścia z przewodnikiem 10:30 i 12:30 (+5 €), poza tym zwiedzanie samodzielne; nieczynne w niedziele.",
+   "history": "Pod Upper Barrakka Gardens wydrążono w czasie II wojny światowej sieć tuneli, w których mieściło się tajne dowództwo obrony Malty. Z sal operacyjnych kierowano myśliwcami w czasie bombardowań wyspy w latach 1940–1942, gdy Malta należała do najciężej bombardowanych miejsc na świecie. W 1943 roku koordynowano stąd część działań przy alianckim lądowaniu na Sycylii, a generał Eisenhower przebywał tu w czasie operacji. Po wojnie tunele wykorzystywało NATO. Dziś odtworzone sale z wielkimi stołami do nanoszenia pozycji samolotów i okrętów oglądacie z przewodnikiem.",
+   "facts": [
+    "Nazwa pochodzi od bastionu nad tunelami, nazwanego na cześć wielkiego mistrza Lascarisa.",
+    "Wejście jest od strony fosy pod ogrodami Upper Barrakka – dajcie sobie 10 minut zapasu na znalezienie."
+   ],
+   "see": [
+    "Sala operacyjna ze stołem planszowym",
+    "Tunele i sale łączności",
+    "Ekspozycja o oblężeniu Malty 1940–1942"
+   ],
+   "hours": "Pn–sb 9:30–17:30 (ostatnie wejście 17:00); przewodnik o 10:30 i 12:30; w niedziele nieczynne",
+   "price": "20 €; oprowadzanie z przewodnikiem +5 €",
+   "duration": "1 h",
+   "food": [
+    "kiosk",
+    "piadina"
+   ],
+   "verify": true,
+   "images": [
+    {
+     "file": "img/lascaris.jpg",
+     "author": "Pi3.124",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Lescaris_War_Room_today.jpg",
+     "caption": "Sala operacyjna w Lascaris War Rooms",
+     "title": "File:Lescaris War Room today.jpg"
+    }
+   ]
+  },
+  "spinola": {
+   "name": "Spinola Bay",
+   "kind": "sight",
+   "area": "St Julian's",
+   "lat": 35.9192052,
+   "lng": 14.491802,
+   "placeId": "ChIJs5Iw30FFDhMR5ex6SbPWzcg",
+   "short": "45 min spacerem promenadą ze Sliemy.",
+   "history": "Mała zatoka w St Julian's z kolorowymi łodziami rybackimi i restauracjami dookoła. Nazwę wzięła od Palazzo Spinola, rezydencji wzniesionej w XVII wieku przez rycerza zakonu z genueńskiego rodu Spinola. Ze Sliemy dojdziecie tu promenadą wzdłuż morza – to ulubiona trasa spacerowa mieszkańców o zachodzie słońca. Nad wodą stoi rzeźba z napisem LOVE, popularne miejsce na zdjęcia.",
+   "see": [
+    "Promenada Sliema – St Julian's",
+    "Łodzie w zatoce",
+    "Rzeźba LOVE",
+    "Zachód słońca nad morzem"
+   ],
+   "hours": "Całą dobę",
+   "price": "Wstęp wolny",
+   "duration": "45 min spaceru + czas na miejscu",
+   "food": [
+    "gululu",
+    "taKris"
+   ],
+   "images": [
+    {
+     "file": "img/spinola.jpg",
+     "author": "Diego Delso",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "source": "https://commons.wikimedia.org/wiki/File:Bahía_de_Spinola,_San_Julián,_isla_de_Malta,_Malta,_2021-08-25,_DD_14.jpg",
+     "caption": "Łodzie w zatoce Spinola w St Julian's",
+     "title": "File:Bahía de Spinola, San Julián, isla de Malta, Malta, 2021-08-25, DD 14.jpg"
+    }
+   ]
+  },
+  "kups": {
+   "name": "Kups Malta",
+   "kind": "food",
+   "star": true,
+   "area": "Sliema",
+   "foodGroup": "Sliema i okolice",
+   "address": "Triq Manwel Dimech 4, Sliema",
+   "lat": 35.9091516,
+   "lng": 14.5032765,
+   "placeId": "ChIJQ1a8D_hFDhMRHjLF7ZxcSJs",
+   "url": "https://kups.com.mt/",
+   "phone": "+35621338873",
+   "short": "Koreański street food; najlepszy smażony kurczak.",
+   "hours": "Codziennie od 11:00, pt–sb do 1:00",
+   "price": "Tanio–średnio"
+  },
+  "ilMerill": {
+   "name": "Il-Merill",
+   "kind": "food",
+   "star": true,
+   "area": "Sliema",
+   "foodGroup": "Sliema i okolice",
+   "address": "Triq San Vincenz, Sliema",
+   "lat": 35.9095061,
+   "lng": 14.5038612,
+   "placeId": "ChIJnSFLUjpFDhMRuCYKcsaY1qo",
+   "url": "https://www.ilmerillrestaurant.com/",
+   "whatsapp": "35699222769",
+   "short": "Kuchnia maltańska: królik, mqaret z lodami. Rezerwacja przez WhatsApp.",
+   "hours": "Tylko kolacje 18:00–22:30 (nd do 22:00)",
+   "price": "Ok. 30–35 €/os"
+  },
+  "jeffs": {
+   "name": "Jeff's Pastizzeria",
+   "kind": "food",
+   "star": true,
+   "area": "Sliema",
+   "foodGroup": "Sliema i okolice",
+   "address": "Triq Manwel Dimech, Sliema",
+   "lat": 35.9093038,
+   "lng": 14.5035272,
+   "placeId": "ChIJuao3KmtFDhMR0vPYyyrenRg",
+   "short": "Pastizzi, bardzo tanio.",
+   "hours": "Codziennie 8:00–22:00",
+   "price": "Bardzo tanio"
+  },
+  "taKris": {
+   "name": "Ta' Kris",
+   "kind": "food",
+   "area": "Gżira",
+   "foodGroup": "Sliema i okolice",
+   "lat": 35.905955,
+   "lng": 14.4970325,
+   "placeId": "ChIJsxP52TpFDhMRiDrlm6ZIwT8",
+   "url": "https://www.takrisrestaurant.com/",
+   "short": "Kuchnia maltańska w dobrej cenie, blisko hotelu.",
+   "hours": "Sprawdźcie na stronie",
+   "price": "Średnio"
+  },
+  "gululu": {
+   "name": "Gululu",
+   "kind": "food",
+   "area": "Spinola Bay",
+   "foodGroup": "Sliema i okolice",
+   "lat": 35.9198412,
+   "lng": 14.4911742,
+   "placeId": "ChIJPxcDDWpFDhMRu48v6uNZo3E",
+   "url": "https://gululu.com.mt/",
+   "short": "Kuchnia maltańska nad zatoką. Rezerwacja.",
+   "hours": "Sprawdźcie na stronie",
+   "price": "Ok. 25 €/os"
+  },
+  "kiosk": {
+   "name": "Upper Barrakka Kiosk",
+   "kind": "food",
+   "star": true,
+   "area": "Valletta",
+   "foodGroup": "Valletta",
+   "lat": 35.8948064,
+   "lng": 14.5117432,
+   "placeId": "ChIJz_ztSdNaDhMRfQwfVd3OBdQ",
+   "short": "Aperol Spritz z widokiem. Zamawiajcie przy kasie; uwaga na gołębie.",
+   "hours": "8:00–19:00",
+   "price": "Średnio"
+  },
+  "legligin": {
+   "name": "Legligin",
+   "kind": "food",
+   "star": true,
+   "area": "Valletta",
+   "foodGroup": "Valletta",
+   "lat": 35.8991358,
+   "lng": 14.5118329,
+   "placeId": "ChIJ_5fOaixFDhMROdxofdFPLCs",
+   "url": "http://legliginmalta.com/",
+   "short": "Degustacja kuchni maltańskiej. Rezerwacja.",
+   "hours": "Kolacje – sprawdźcie na stronie",
+   "price": "Ok. 37–45 €/os"
+  },
+  "sottoPinsa": {
+   "name": "Sotto Pinsa Romana",
+   "kind": "food",
+   "star": true,
+   "area": "Valletta",
+   "foodGroup": "Valletta",
+   "address": "South Street 32, Valletta",
+   "lat": 35.8983119,
+   "lng": 14.5088503,
+   "placeId": "ChIJF4lLoC1FDhMRZIS5WyUYMHo",
+   "url": "https://zeroseimalta.com/stores/sotto-pizzeria/",
+   "phone": "+35621220077",
+   "short": "Pinsa z porchettą, tiramisu pistacjowe.",
+   "hours": "Codziennie 12:00–23:00",
+   "price": "Średnio"
+  },
+  "isSuq": {
+   "name": "Is-Suq tal-Belt",
+   "kind": "food",
+   "area": "Valletta",
+   "foodGroup": "Valletta",
+   "lat": 35.8978617,
+   "lng": 14.5145156,
+   "placeId": "ChIJ51o0nytFDhMRO9crAIk6f2A",
+   "url": "https://www.issuqtalbelt.com/",
+   "short": "Hala z jedzeniem w dawnym targu, tanio, bez rezerwacji.",
+   "hours": "Sprawdźcie na stronie",
+   "price": "Tanio"
+  },
+  "cordina": {
+   "name": "Caffe Cordina",
+   "kind": "food",
+   "area": "Valletta",
+   "foodGroup": "Valletta",
+   "lat": 35.8987116,
+   "lng": 14.5131524,
+   "placeId": "ChIJBRwagilFDhMRDN0qiq1cPVk",
+   "short": "Kawa i pastizzi w historycznej kawiarni.",
+   "hours": "Od 7:30",
+   "price": "Średnio"
+  },
+  "piadina": {
+   "name": "Piadina Caffe",
+   "kind": "food",
+   "area": "Valletta",
+   "foodGroup": "Valletta",
+   "lat": 35.897327,
+   "lng": 14.513373,
+   "placeId": "ChIJe_VDfCtFDhMRECkn_wNJYkE",
+   "short": "Tani lunch, focaccia; przy schodach św. Łucji.",
+   "hours": "W ciągu dnia",
+   "price": "Tanio"
+  },
+  "rubino": {
+   "name": "Rubino",
+   "kind": "food",
+   "area": "Valletta",
+   "foodGroup": "Valletta",
+   "lat": 35.8992029,
+   "lng": 14.5119824,
+   "placeId": "ChIJVxzLnStFDhMRRAT7ht56b9U",
+   "url": "http://rubinomalta.com/",
+   "short": "Klasyk kuchni maltańskiej. Rezerwacja.",
+   "hours": "W niedzielę zamknięte; godziny kolacji sprawdźcie na stronie",
+   "price": "Ok. 35 €/os",
+   "verify": true
+  },
+  "tartarun": {
+   "name": "Tartarun",
+   "kind": "food",
+   "area": "Marsaxlokk",
+   "foodGroup": "Marsaxlokk",
+   "lat": 35.8414071,
+   "lng": 14.5457826,
+   "placeId": "ChIJ94TJHplbDhMRvn7ArR5Xt0U",
+   "url": "http://www.tartarun.com/",
+   "short": "Ryba. W niedzielę tylko lunch od 12:00. Rezerwacja.",
+   "hours": "Nd: lunch od 12:00",
+   "price": "Ok. 35–45 €/os"
+  },
+  "nostraPadrona": {
+   "name": "La Nostra Padrona",
+   "kind": "food",
+   "area": "Marsaxlokk",
+   "foodGroup": "Marsaxlokk",
+   "lat": 35.839875,
+   "lng": 14.5441842,
+   "placeId": "ChIJacHgRJhbDhMRu7fenfY-lGQ",
+   "url": "http://www.lanostrapadrona.com/",
+   "short": "Tańsza ryba na nabrzeżu.",
+   "hours": "Nd do 16:00",
+   "price": "Średnio"
+  },
+  "crystalPalace": {
+   "name": "Is-Serkin Crystal Palace",
+   "kind": "food",
+   "area": "Rabat",
+   "foodGroup": "Rabat i Mdina",
+   "lat": 35.8845006,
+   "lng": 14.4004853,
+   "placeId": "ChIJiZrLpZVRDhMRR6xGxPD4-LM",
+   "short": "Kultowe pastizzi ok. 0,50 €.",
+   "hours": "Od rana",
+   "price": "Bardzo tanio"
+  },
+  "fontanella": {
+   "name": "Fontanella Tea Garden",
+   "kind": "food",
+   "area": "Mdina",
+   "foodGroup": "Rabat i Mdina",
+   "lat": 35.8871467,
+   "lng": 14.4037212,
+   "placeId": "ChIJJcIaCsBRDhMRu-b-D4p6Klg",
+   "url": "http://www.fontanellateagarden.com.mt/",
+   "short": "Ciasta i lunch na murach z widokiem na pół wyspy.",
+   "hours": "W ciągu dnia",
+   "price": "Średnio"
+  },
+  "donBerto": {
+   "name": "Don Berto",
+   "kind": "food",
+   "area": "Birgu",
+   "foodGroup": "Birgu",
+   "lat": 35.888526,
+   "lng": 14.5204851,
+   "placeId": "ChIJ_2qxjClbDhMRvzpQ_dJMZ84",
+   "url": "https://donberto.com/",
+   "short": "Lunch na nabrzeżu.",
+   "hours": "W ciągu dnia",
+   "price": "Ok. 15–20 €/os"
+  },
+  "talPetut": {
+   "name": "Tal-Petut",
+   "kind": "food",
+   "area": "Birgu",
+   "foodGroup": "Birgu",
+   "lat": 35.8875706,
+   "lng": 14.5229368,
+   "placeId": "ChIJg0QeaClbDhMRDqc9R3UHXH4",
+   "url": "http://www.talpetut.com/",
+   "short": "Domowa kolacja, tylko wieczorem (opcja). Rezerwacja.",
+   "hours": "Tylko wieczorem",
+   "price": "Średnio"
+  },
+  "taRikardu": {
+   "name": "Ta' Rikardu",
+   "kind": "food",
+   "area": "Cittadella, Gozo",
+   "foodGroup": "Gozo",
+   "lat": 36.046338,
+   "lng": 14.2397357,
+   "placeId": "ChIJAQAAAPC0DxMRQ5u8wzaJUaw",
+   "short": "Ġbejniet, wino, ravioli.",
+   "hours": "W ciągu dnia",
+   "price": "Ok. 15–20 €/os"
+  },
+  "blueCave": {
+   "name": "Blue Cave Bar & Restaurant",
+   "kind": "food",
+   "area": "Blue Grotto",
+   "foodGroup": "Blue Grotto",
+   "lat": 35.8197377,
+   "lng": 14.4525462,
+   "placeId": "ChIJRcs6NRRRDhMRGtYFxoTaB7w",
+   "short": "Prosty lunch z widokiem.",
+   "hours": "W ciągu dnia",
+   "price": "Ok. 15–20 €/os"
+  }
+ },
+ "templates": {
+  "ARRIVAL": {
+   "title": "Przylot",
+   "outdoor": false,
+   "warnings": [
+    "Gotówka: wypłaćcie ok. 60 € na lotnisku (promy, łodzie)."
+   ],
+   "blocks": [
+    {
+     "location": "Lotnisko MLA",
+     "items": [
+      {
+       "id": "land",
+       "time": "19:00",
+       "type": "transport",
+       "title": "Lądowanie na lotnisku MLA",
+       "placeRef": "airport"
+      },
+      {
+       "id": "card",
+       "time": "19:15",
+       "type": "task",
+       "title": "Karta autobusowa w hali przylotów",
+       "placeRef": "airport",
+       "note": "Automat lub kiosk Malta Public Transport. Explore 25 €/os na 7 dni (same autobusy). Explore Flex 7 dni z pakietem Gozo Highspeed 42 €/os – zawiera jeden rejs szybkim promem na Gozo i z powrotem (Explore + osobny bilet na prom wychodzi zwykle taniej).",
+       "verify": true
+      },
+      {
+       "id": "atm",
+       "time": "19:25",
+       "type": "task",
+       "title": "Bankomat banku: ok. 60 € gotówki",
+       "placeRef": "airport",
+       "note": "Na promy i łodzie. Wybierajcie bankomat banku, nie Euronet. Przy pytaniu o przewalutowanie wybierzcie rozliczenie w EUR."
+      }
+     ]
+    },
+    {
+     "location": "Sliema",
+     "transfer": {
+      "id": "taxi",
+      "time": "19:45",
+      "type": "transport",
+      "title": "Bolt/eCabs do hotelu",
+      "getThere": {
+       "mode": "bolt",
+       "text": "Bolt lub eCabs z aplikacji (nie białe taksówki spod terminalu). Linia X2 już nie kursuje; autobusowa alternatywa to TD3 (lotnisko – St Julian's – Sliema – Gżira, dodatkowo płatna) – sprawdźcie w Tallinja.",
+       "minutes": 25,
+       "cost": "ok. 20–25 €"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "checkin",
+       "time": "20:30",
+       "type": "task",
+       "title": "Zameldowanie w hotelu",
+       "placeRef": "centric",
+       "note": "Poproście o wysokie piętro z widokiem na Vallettę."
+      },
+      {
+       "id": "kups",
+       "time": "21:00",
+       "type": "eat",
+       "title": "Kolacja: Kups ★",
+       "placeRef": "kups",
+       "note": "W sobotę do 1:00. Alternatywa: Jeff's (do 22:00).",
+       "getThere": {
+        "mode": "walk",
+        "text": "2 min pieszo od hotelu",
+        "minutes": 2,
+        "cost": ""
+       },
+       "food": [
+        "jeffs"
+       ]
+      },
+      {
+       "id": "walk",
+       "time": "22:00",
+       "type": "view",
+       "title": "Spacer nabrzeżem do Tigné Point",
+       "placeRef": "sliema",
+       "note": "Oświetlona Valletta po drugiej stronie zatoki Marsamxett.",
+       "getThere": {
+        "mode": "walk",
+        "text": "Promenadą w stronę Tigné Point",
+        "minutes": 15,
+        "cost": ""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "SUN_MARSAXLOKK": {
+   "title": "Marsaxlokk i Valletta",
+   "outdoor": true,
+   "warnings": [
+    "Niedziela: konkatedra św. Jana i Lascaris War Rooms są nieczynne.",
+    "Ryby na targu najlepiej przed 10:30."
+   ],
+   "blocks": [
+    {
+     "location": "Sliema",
+     "items": [
+      {
+       "id": "bf",
+       "time": "07:30",
+       "type": "eat",
+       "title": "Śniadanie w hotelu lub na wynos",
+       "placeRef": "centric",
+       "note": "Jeff's otwiera dopiero o 8:00."
+      }
+     ]
+    },
+    {
+     "location": "Marsaxlokk",
+     "transfer": {
+      "id": "bus",
+      "time": "07:45",
+      "type": "transport",
+      "title": "Do Valletty, potem autobus 81 lub 85",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "W niedzielę prom ze Sliemy startuje dopiero ok. 8:45, więc autobus z przystanku Sliema Ferries do Valletty (ok. 20 min), potem z dworca autobus 81 lub 85 do Marsaxlokk (ok. 40 min).",
+       "minutes": 75,
+       "cost": "karta Explore"
+      },
+      "note": "Aktywacja karty przy pierwszym przejeździe.",
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "market",
+       "time": "09:00",
+       "type": "see",
+       "title": "Targ rybny i łodzie luzzu",
+       "placeRef": "marsaxlokk"
+      },
+      {
+       "id": "pool",
+       "time": "10:15",
+       "type": "see",
+       "title": "Spacer na St Peter's Pool",
+       "placeRef": "stPetersPool",
+       "note": "Kąpiel opcjonalnie.",
+       "getThere": {
+        "mode": "walk",
+        "text": "Ścieżką i drogą na półwysep Delimara",
+        "minutes": 35,
+        "cost": ""
+       }
+      },
+      {
+       "id": "lunch",
+       "time": "12:15",
+       "type": "eat",
+       "title": "Lunch: Tartarun albo La Nostra Padrona",
+       "placeRef": "tartarun",
+       "note": "Tartarun wymaga rezerwacji.",
+       "getThere": {
+        "mode": "walk",
+        "text": "Powrót do wioski",
+        "minutes": 35,
+        "cost": ""
+       },
+       "food": [
+        "nostraPadrona"
+       ]
+      }
+     ]
+    },
+    {
+     "location": "Valletta",
+     "transfer": {
+      "id": "bus2",
+      "time": "13:50",
+      "type": "transport",
+      "title": "Autobus 81/85 do Valletty",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Autobus 81 lub 85 z Marsaxlokk do Valletty",
+       "minutes": 40,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "palace",
+       "time": "14:45",
+       "type": "see",
+       "title": "Pałac Wielkiego Mistrza + zbrojownia",
+       "placeRef": "grandmaster",
+       "note": "Czynny w niedzielę do 17:00, ostatnie wejście 16:30.",
+       "getThere": {
+        "mode": "walk",
+        "text": "Republic Street od City Gate",
+        "minutes": 10,
+        "cost": ""
+       }
+      },
+      {
+       "id": "pass",
+       "time": "14:45",
+       "type": "task",
+       "title": "Kupcie Heritage Malta Multisite Pass",
+       "placeRef": "grandmaster",
+       "note": "60 €/os, ważny 30 dni od pierwszego użycia. Obejmuje m.in. katakumby, Fort St Angelo, Pałac Inkwizytora, Cittadellę (centrum), Ġgantiję, Ħaġar Qim, Tarxien, Muzeum Archeologiczne i Fort St Elmo. Nie obejmuje Hypogeum."
+      },
+      {
+       "id": "kiosk",
+       "time": "15:50",
+       "type": "eat",
+       "title": "Upper Barrakka Kiosk: Aperol Spritz ★",
+       "placeRef": "kiosk"
+      },
+      {
+       "id": "gun",
+       "time": "16:00",
+       "type": "view",
+       "title": "Salwa armatnia i zachód nad Wielkim Portem",
+       "placeRef": "upperBarrakka",
+       "note": "Zachód ok. 16:55. Saluting Battery jest czynna pn–sb – w niedzielę salwa może się nie odbyć, ale widok i zachód i tak warto.",
+       "verify": true
+      },
+      {
+       "id": "streets",
+       "time": "17:30",
+       "type": "free",
+       "title": "Republic Street, Merchants Street, Strait Street",
+       "placeRef": "straitStreet"
+      },
+      {
+       "id": "dinner",
+       "time": "19:00",
+       "type": "eat",
+       "title": "Kolacja: Is-Suq tal-Belt (albo Jeff's po powrocie)",
+       "placeRef": "isSuq",
+       "note": "Powrót autobusem lub Boltem – w niedzielę prom kursuje tylko do ok. 18:30.",
+       "food": [
+        "jeffs"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "RABAT_MDINA_DINGLI": {
+   "title": "Rabat, Mdina, klify Dingli",
+   "outdoor": true,
+   "warnings": [
+    "Plener: po zmroku autobusy z Dingli kursują rzadko – Bolt w odwodzie.",
+    "Przy klifach nie ma barierek."
+   ],
+   "blocks": [
+    {
+     "location": "Sliema",
+     "items": [
+      {
+       "id": "bf",
+       "time": "08:00",
+       "type": "eat",
+       "title": "Śniadanie: Jeff's",
+       "placeRef": "jeffs"
+      }
+     ]
+    },
+    {
+     "location": "Rabat",
+     "transfer": {
+      "id": "bus",
+      "time": "08:30",
+      "type": "transport",
+      "title": "Autobus do Rabatu",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Ze Sliemy bezpośrednio linią 202 (Sliema Ferries – St Julian's – Mosta – Rabat) albo przez Vallettę liniami 51/52/53. Sprawdźcie w Tallinja.",
+       "minutes": 55,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "pastizzi",
+       "time": "09:30",
+       "type": "eat",
+       "title": "(opcja) Crystal Palace: pastizzi",
+       "placeRef": "crystalPalace",
+       "optional": true
+      },
+      {
+       "id": "catacombs",
+       "time": "09:45",
+       "type": "see",
+       "title": "Katakumby św. Pawła",
+       "placeRef": "catacombs",
+       "getThere": {
+        "mode": "walk",
+        "text": "Kilka minut pieszo od przystanku w Rabacie",
+        "minutes": 5,
+        "cost": ""
+       }
+      }
+     ]
+    },
+    {
+     "location": "Mdina",
+     "items": [
+      {
+       "id": "mdina",
+       "time": "11:00",
+       "type": "see",
+       "title": "Mdina: Brama Główna, uliczki, Bastion Square",
+       "placeRef": "mdina",
+       "getThere": {
+        "mode": "walk",
+        "text": "Z Rabatu do Bramy Głównej",
+        "minutes": 10,
+        "cost": ""
+       }
+      },
+      {
+       "id": "cathedral",
+       "time": "11:45",
+       "type": "see",
+       "title": "(opcja) Katedra św. Pawła",
+       "placeRef": "mdinaCathedral",
+       "optional": true
+      },
+      {
+       "id": "lunch",
+       "time": "12:30",
+       "type": "eat",
+       "title": "Lunch: Fontanella, stolik na murach",
+       "placeRef": "fontanella"
+      }
+     ]
+    },
+    {
+     "location": "Klify Dingli",
+     "transfer": {
+      "id": "bus2",
+      "time": "14:30",
+      "type": "transport",
+      "title": "Autobus 52 lub 56 do Dingli",
+      "placeRef": "dingli",
+      "getThere": {
+       "mode": "bus",
+       "text": "Autobus 52 lub 56 z Rabatu (sprawdźcie w Tallinja), potem ok. 20 min pieszo do klifów.",
+       "minutes": 35,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "cliffs",
+       "time": "15:15",
+       "type": "see",
+       "title": "Klify Dingli i kaplica św. Marii Magdaleny",
+       "placeRef": "dingli",
+       "note": "Spacer krawędzią klifów."
+      },
+      {
+       "id": "sunset",
+       "time": "16:55",
+       "type": "view",
+       "title": "Zachód słońca nad klifami",
+       "placeRef": "dingli"
+      }
+     ]
+    },
+    {
+     "location": "Sliema",
+     "transfer": {
+      "id": "bolt",
+      "time": "17:15",
+      "type": "transport",
+      "title": "Bolt do Sliemy",
+      "getThere": {
+       "mode": "bolt",
+       "text": "Bolt (ok. 20–25 €) albo autobus – po zmroku kursują rzadko.",
+       "minutes": 30,
+       "cost": "ok. 20–25 €"
+      }
+     },
+     "items": [
+      {
+       "id": "dinner",
+       "time": "19:30",
+       "type": "eat",
+       "title": "Kolacja: Il-Merill ★",
+       "placeRef": "ilMerill",
+       "note": "Rezerwacja przez WhatsApp."
+      }
+     ]
+    }
+   ]
+  },
+  "THREE_CITIES": {
+   "title": "Trzy Miasta: Birgu i Senglea",
+   "outdoor": false,
+   "warnings": [],
+   "weekdayWarnings": {
+    "1": "Poniedziałek: Pałac Inkwizytora jest zamknięty – zamieńcie dni albo pomińcie ten punkt."
+   },
+   "blocks": [
+    {
+     "location": "Valletta",
+     "items": [
+      {
+       "id": "lm",
+       "time": "07:30",
+       "type": "task",
+       "title": "Próba last-minute: kolejka pod kasą Fort St Elmo",
+       "placeRef": "fortStElmo",
+       "note": "Wyjście z hotelu 7:30 (pierwszy prom ze Sliemy ok. 6:45, co 30 min), w kolejce od 8:00, kasa otwiera się z fortem o 9:00. Bilety Hypogeum na jutro (tury 12:00 i 16:00).",
+       "task": {
+        "showWhen": "attempt",
+        "lastMinute": true
+       }
+      },
+      {
+       "id": "ferry",
+       "time": "09:00",
+       "type": "transport",
+       "title": "Prom ze Sliemy do Valletty",
+       "placeRef": "sliemaFerries",
+       "task": {
+        "showWhen": "noAttempt"
+       },
+       "getThere": {
+        "mode": "ferry",
+        "text": "Prom z przystani Sliema Ferries",
+        "minutes": 10,
+        "cost": "3 €"
+       },
+       "verify": true
+      }
+     ]
+    },
+    {
+     "location": "Birgu",
+     "transfer": {
+      "id": "ferry2",
+      "time": "09:30",
+      "type": "transport",
+      "title": "Barrakka Lift w dół i prom do Birgu",
+      "placeRef": "threeCitiesFerry",
+      "getThere": {
+       "mode": "ferry",
+       "text": "Winda Barrakka Lift na nabrzeże (1 €), potem prom Valletta – Trzy Miasta do przystani Cospicua/Birgu.",
+       "minutes": 10,
+       "cost": "3 € + winda 1 €"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "angelo",
+       "time": "10:00",
+       "type": "see",
+       "title": "Fort St Angelo",
+       "placeRef": "fortStAngelo",
+       "getThere": {
+        "mode": "walk",
+        "text": "Nabrzeżem z przystani promowej",
+        "minutes": 10,
+        "cost": ""
+       }
+      },
+      {
+       "id": "inquisitor",
+       "time": "11:45",
+       "type": "see",
+       "title": "Pałac Inkwizytora",
+       "placeRef": "inquisitor",
+       "getThere": {
+        "mode": "walk",
+        "text": "Uliczkami Birgu",
+        "minutes": 7,
+        "cost": ""
+       }
+      },
+      {
+       "id": "lunch",
+       "time": "13:15",
+       "type": "eat",
+       "title": "Lunch: Don Berto",
+       "placeRef": "donBerto"
+      },
+      {
+       "id": "birgu",
+       "time": "14:45",
+       "type": "see",
+       "title": "Uliczki Birgu i przejście do Senglei",
+       "placeRef": "birgu"
+      }
+     ]
+    },
+    {
+     "location": "Senglea",
+     "items": [
+      {
+       "id": "gardjola",
+       "time": "15:45",
+       "type": "view",
+       "title": "Ogrody Gardjola",
+       "placeRef": "gardjola",
+       "getThere": {
+        "mode": "walk",
+        "text": "Wokół zatoki Dockyard Creek przez Cospicua",
+        "minutes": 25,
+        "cost": ""
+       }
+      }
+     ]
+    },
+    {
+     "location": "Valletta",
+     "transfer": {
+      "id": "ferry3",
+      "time": "16:30",
+      "type": "transport",
+      "title": "Prom do Valletty",
+      "placeRef": "threeCitiesFerry",
+      "getThere": {
+       "mode": "ferry",
+       "text": "Prom z przystani w Cospicua/Birgu (ok. 20 min pieszo z Senglei) albo łódka dgħajsa; w Valletcie winda w górę 1 €.",
+       "minutes": 10,
+       "cost": "3 €"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "free",
+       "time": "17:00",
+       "type": "free",
+       "title": "Czas wolny w Valletcie",
+       "placeRef": "vallettaStreets"
+      },
+      {
+       "id": "dinner",
+       "time": "19:00",
+       "type": "eat",
+       "title": "Kolacja: Legligin ★",
+       "placeRef": "legligin",
+       "note": "Rezerwacja. Powrót do Sliemy autobusem lub Boltem. Opcja: zostańcie w Birgu na kolacji w Tal-Petut zamiast wracać do Valletty.",
+       "food": [
+        "talPetut"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "GOZO": {
+   "title": "Gozo bez auta",
+   "outdoor": true,
+   "warnings": [
+    "Przy silnym wietrze Gozo Fast Ferry może nie kursować – sprawdźcie rano stronę przewoźnika.",
+    "Gotówka na łódź w Dwejrze (ok. 5 €).",
+    "Bilet na prom online dzień wcześniej (chyba że jest w pakiecie karty)."
+   ],
+   "alternative": {
+    "title": "Wariant B: bez hop-on hop-off (0 €, autobusami miejskimi)",
+    "steps": [
+     "8:10 autobus 301 z Mġarr do Victorii",
+     "8:45 Cittadella",
+     "10:20 autobus 307 lub 322 do Xagħry, Ġgantija 10:45–12:00",
+     "12:15 powrót do Victorii, lunch 12:45 (Ta' Rikardu)",
+     "13:50 autobus 311 do Dwejry, 1 h na miejscu",
+     "15:20 autobus 311 do Victorii, potem 301 do Mġarr",
+     "17:00 prom do Valletty",
+     "Odpada Xlendi i Ramla."
+    ],
+    "verify": true
+   },
+   "blocks": [
+    {
+     "location": "Valletta → Gozo",
+     "items": [
+      {
+       "id": "bolt",
+       "time": "06:45",
+       "type": "transport",
+       "title": "Bolt do Lascaris Wharf w Valletcie",
+       "placeRef": "gozoFerry",
+       "getThere": {
+        "mode": "bolt",
+        "text": "Pierwszy prom ze Sliemy prawdopodobnie nie zdąży.",
+        "minutes": 15,
+        "cost": "ok. 10 €"
+       },
+       "verify": true
+      },
+      {
+       "id": "ferry",
+       "time": "07:15",
+       "type": "transport",
+       "title": "Gozo Highspeed do Mġarr (ok. 7:15)",
+       "placeRef": "gozoFerry",
+       "note": "Dokładną godzinę porannego kursu sprawdźcie na gozohighspeed.com – kursy są mniej więcej co 45–60 min. Bilet online dzień wcześniej, chyba że macie pakiet Explore Flex z Gozo Highspeed. Przy fali buja.",
+       "getThere": {
+        "mode": "ferry",
+        "text": "Szybki prom Gozo Highspeed Valletta – Mġarr",
+        "minutes": 45,
+        "cost": "ok. 7,50 €"
+       },
+       "verify": true
+      }
+     ]
+    },
+    {
+     "location": "Victoria – Cittadella",
+     "transfer": {
+      "id": "bus301",
+      "time": "08:10",
+      "type": "transport",
+      "title": "Autobus 301 z Mġarr do Victorii",
+      "placeRef": "mgarr",
+      "getThere": {
+       "mode": "bus",
+       "text": "Autobus 301 z portu Mġarr",
+       "minutes": 25,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "cittadella",
+       "time": "08:45",
+       "type": "see",
+       "title": "Cittadella o poranku",
+       "placeRef": "cittadella",
+       "note": "Potem mury i widok na całą wyspę.",
+       "getThere": {
+        "mode": "walk",
+        "text": "Z dworca w Victorii pod górę",
+        "minutes": 10,
+        "cost": ""
+       }
+      },
+      {
+       "id": "lm",
+       "time": "09:00",
+       "type": "task",
+       "title": "Próba last-minute: sklep Gozo Museum of Archaeology",
+       "placeRef": "cittadella",
+       "note": "Muzeum jest zamknięte w remoncie, ale sklep przy nim sprzedaje bilety last-minute (do 12:00). Bilety Hypogeum na jutro (tury 12:00 i 16:00).",
+       "task": {
+        "showWhen": "attempt",
+        "lastMinute": true
+       }
+      }
+     ]
+    },
+    {
+     "location": "Zachód Gozo: Dwejra",
+     "transfer": {
+      "id": "hoponW",
+      "time": "10:30",
+      "type": "transport",
+      "title": "Hop-on hop-off: trasa zachodnia (fioletowa)",
+      "placeRef": "hoponGozo",
+      "getThere": {
+       "mode": "bus",
+       "text": "Z Victorii trasą zachodnią przez Ta' Pinu do Dwejry",
+       "minutes": 25,
+       "cost": "ok. 20–24 €/os (bilet na cały dzień)"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "tapinu",
+       "time": "10:40",
+       "type": "view",
+       "title": "Ta' Pinu z okna autobusu",
+       "placeRef": "tapinu"
+      },
+      {
+       "id": "dwejra",
+       "time": "11:00",
+       "type": "see",
+       "title": "Dwejra: Inland Sea, Fungus Rock, łódź",
+       "placeRef": "dwejra",
+       "note": "1 h na miejscu. Łódź ok. 5 € gotówką."
+      },
+      {
+       "id": "xlendi",
+       "time": "12:15",
+       "type": "view",
+       "title": "(opcja) 45 min w Xlendi",
+       "placeRef": "xlendi",
+       "optional": true,
+       "note": "Wtedy lunch odpowiednio później."
+      }
+     ]
+    },
+    {
+     "location": "Victoria",
+     "transfer": {
+      "id": "back",
+      "time": "12:15",
+      "type": "transport",
+      "title": "Kolejnym autobusem do Victorii",
+      "placeRef": "hoponGozo",
+      "getThere": {
+       "mode": "bus",
+       "text": "Hop-on hop-off trasą zachodnią z powrotem do Victorii",
+       "minutes": 30,
+       "cost": "w bilecie"
+      }
+     },
+     "items": [
+      {
+       "id": "lunch",
+       "time": "13:00",
+       "type": "eat",
+       "title": "Lunch: Ta' Rikardu",
+       "placeRef": "taRikardu"
+      }
+     ]
+    },
+    {
+     "location": "Wschód Gozo: Ġgantija",
+     "transfer": {
+      "id": "hoponE",
+      "time": "14:15",
+      "type": "transport",
+      "title": "Hop-on hop-off: trasa wschodnia (niebieska) do Xagħry",
+      "placeRef": "hoponGozo",
+      "getThere": {
+       "mode": "bus",
+       "text": "Trasą wschodnią z Victorii do Xagħry",
+       "minutes": 15,
+       "cost": "w bilecie"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "ggantija",
+       "time": "14:30",
+       "type": "see",
+       "title": "Ġgantija + wiatrak Ta' Kola",
+       "placeRef": "ggantija",
+       "note": "1 h."
+      }
+     ]
+    },
+    {
+     "location": "Mġarr → Valletta",
+     "transfer": {
+      "id": "ramla",
+      "time": "15:45",
+      "type": "transport",
+      "title": "Trasą wschodnią przez Ramla Bay do Mġarr",
+      "placeRef": "ramla",
+      "getThere": {
+       "mode": "bus",
+       "text": "Hop-on hop-off przez Ramla Bay do portu, ok. 16:30",
+       "minutes": 45,
+       "cost": "w bilecie"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "ferryBack",
+       "time": "17:00",
+       "type": "transport",
+       "title": "Prom do Valletty – zachód w trakcie rejsu",
+       "placeRef": "gozoFerry",
+       "note": "Ostatni kurs z Mġarr w dni powszednie ok. 21:15, więc 17:00 jest bezpieczne; dokładną godzinę sprawdźcie na stronie.",
+       "getThere": {
+        "mode": "ferry",
+        "text": "Gozo Highspeed Mġarr – Valletta",
+        "minutes": 45,
+        "cost": "ok. 7,50 €"
+       },
+       "verify": true
+      },
+      {
+       "id": "dinner",
+       "time": "18:15",
+       "type": "eat",
+       "title": "Kolacja: Sotto Pinsa ★",
+       "placeRef": "sottoPinsa",
+       "note": "5 min od nabrzeża. Powrót do Sliemy autobusem lub Boltem.",
+       "getThere": {
+        "mode": "walk",
+        "text": "Z nabrzeża pod górę",
+        "minutes": 10,
+        "cost": ""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "SOUTH_NONE": {
+   "title": "Południe: świątynie i Blue Grotto",
+   "outdoor": true,
+   "warnings": [
+    "Łódź w Blue Grotto pływa tylko przy spokojnym morzu i za gotówkę."
+   ],
+   "blocks": [
+    {
+     "location": "Ħaġar Qim i Mnajdra",
+     "transfer": {
+      "id": "bus",
+      "time": "08:15",
+      "type": "transport",
+      "title": "Do Valletty, potem autobus 74 do Ħaġar Qim",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Prom lub autobus do Valletty, z dworca autobus 74 do Ħaġar Qim (ok. 40 min).",
+       "minutes": 60,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "hagarqim",
+       "time": "09:30",
+       "type": "see",
+       "title": "Ħaġar Qim i Mnajdra",
+       "placeRef": "hagarQim",
+       "note": "1,5 h."
+      }
+     ]
+    },
+    {
+     "location": "Blue Grotto",
+     "items": [
+      {
+       "id": "grotto",
+       "time": "11:15",
+       "type": "see",
+       "title": "Blue Grotto: łódź do grot",
+       "placeRef": "blueGrotto",
+       "note": "Łódź ok. 10 € gotówką.",
+       "getThere": {
+        "mode": "walk",
+        "text": "W dół drogą do Wied iż-Żurrieq",
+        "minutes": 25,
+        "cost": ""
+       }
+      },
+      {
+       "id": "lunch",
+       "time": "12:15",
+       "type": "eat",
+       "title": "Lunch: Blue Cave",
+       "placeRef": "blueCave"
+      }
+     ]
+    },
+    {
+     "location": "Paola – Tarxien",
+     "transfer": {
+      "id": "bolt",
+      "time": "13:30",
+      "type": "transport",
+      "title": "Bolt do Paoli / Tarxien",
+      "getThere": {
+       "mode": "bolt",
+       "text": "Bolt z Wied iż-Żurrieq",
+       "minutes": 20,
+       "cost": "ok. 15 €"
+      }
+     },
+     "items": [
+      {
+       "id": "tarxien",
+       "time": "14:00",
+       "type": "see",
+       "title": "Świątynie Tarxien",
+       "placeRef": "tarxien",
+       "note": "W kasie Hypogeum zapytajcie o sam pokaz audiowizualny (bywa dostępny bez rezerwacji)."
+      }
+     ]
+    },
+    {
+     "location": "Valletta",
+     "transfer": {
+      "id": "bus2",
+      "time": "15:30",
+      "type": "transport",
+      "title": "Autobus 81/82/85 do Valletty",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Z Paoli autobusem 81, 82 lub 85",
+       "minutes": 20,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "free",
+       "time": "16:00",
+       "type": "free",
+       "title": "Czas wolny w Valletcie",
+       "placeRef": "vallettaStreets"
+      },
+      {
+       "id": "dinner",
+       "time": "19:00",
+       "type": "eat",
+       "title": "Kolacja: Rubino",
+       "placeRef": "rubino",
+       "note": "Powrót do Sliemy autobusem lub Boltem."
+      }
+     ]
+    }
+   ]
+  },
+  "SOUTH_H12": {
+   "title": "Południe z Hypogeum o 12:00",
+   "outdoor": true,
+   "hypogeumSlot": "12",
+   "warnings": [
+    "Hypogeum: bądźcie 15 min przed turą, pełne buty, zakaz zdjęć.",
+    "Łódź w Blue Grotto pływa tylko przy spokojnym morzu i za gotówkę."
+   ],
+   "blocks": [
+    {
+     "location": "Paola",
+     "transfer": {
+      "id": "bus",
+      "time": "09:00",
+      "type": "transport",
+      "title": "Do Valletty, potem autobus 81/82/85 do Paoli",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Prom lub autobus do Valletty, z dworca autobus 81, 82 lub 85 do Paoli (ok. 15 min).",
+       "minutes": 45,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "tarxien",
+       "time": "10:00",
+       "type": "see",
+       "title": "Świątynie Tarxien",
+       "placeRef": "tarxien",
+       "note": "1 h."
+      },
+      {
+       "id": "hypogeum",
+       "time": "11:40",
+       "type": "see",
+       "title": "Hypogeum – tura 12:00",
+       "placeRef": "hypogeum",
+       "hypogeum": true,
+       "note": "Być 15 min przed turą.",
+       "getThere": {
+        "mode": "walk",
+        "text": "Z Tarxien do Hypogeum",
+        "minutes": 10,
+        "cost": ""
+       }
+      }
+     ]
+    },
+    {
+     "location": "Blue Grotto",
+     "transfer": {
+      "id": "bolt",
+      "time": "13:15",
+      "type": "transport",
+      "title": "Bolt do Wied iż-Żurrieq",
+      "getThere": {
+       "mode": "bolt",
+       "text": "Bolt z Paoli",
+       "minutes": 15,
+       "cost": "ok. 12 €"
+      }
+     },
+     "items": [
+      {
+       "id": "grotto",
+       "time": "13:45",
+       "type": "see",
+       "title": "Blue Grotto: łódź do grot",
+       "placeRef": "blueGrotto",
+       "note": "Łódź ok. 10 € gotówką."
+      },
+      {
+       "id": "lunch",
+       "time": "14:15",
+       "type": "eat",
+       "title": "Późny lunch: Blue Cave",
+       "placeRef": "blueCave"
+      }
+     ]
+    },
+    {
+     "location": "Ħaġar Qim i Mnajdra",
+     "items": [
+      {
+       "id": "hagarqim",
+       "time": "15:00",
+       "type": "see",
+       "title": "Ħaġar Qim i Mnajdra",
+       "placeRef": "hagarQim",
+       "note": "Sprawdźcie godzinę zamknięcia.",
+       "verify": true,
+       "getThere": {
+        "mode": "walk",
+        "text": "Pod górę od Blue Grotto",
+        "minutes": 25,
+        "cost": ""
+       }
+      }
+     ]
+    },
+    {
+     "location": "Valletta",
+     "transfer": {
+      "id": "bus2",
+      "time": "16:45",
+      "type": "transport",
+      "title": "Autobus 74 do Valletty",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Autobus 74 spod Ħaġar Qim",
+       "minutes": 40,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "dinner",
+       "time": "19:00",
+       "type": "eat",
+       "title": "Kolacja: Rubino",
+       "placeRef": "rubino",
+       "note": "Powrót do Sliemy autobusem lub Boltem."
+      }
+     ]
+    }
+   ]
+  },
+  "SOUTH_H16": {
+   "title": "Południe z Hypogeum o 16:00",
+   "outdoor": true,
+   "hypogeumSlot": "16",
+   "warnings": [
+    "Hypogeum: bądźcie 15 min przed turą, pełne buty, zakaz zdjęć.",
+    "Łódź w Blue Grotto pływa tylko przy spokojnym morzu i za gotówkę."
+   ],
+   "blocks": [
+    {
+     "location": "Ħaġar Qim i Mnajdra",
+     "transfer": {
+      "id": "bus",
+      "time": "08:15",
+      "type": "transport",
+      "title": "Do Valletty, potem autobus 74 do Ħaġar Qim",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Prom lub autobus do Valletty, z dworca autobus 74 do Ħaġar Qim (ok. 40 min).",
+       "minutes": 60,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "hagarqim",
+       "time": "09:30",
+       "type": "see",
+       "title": "Ħaġar Qim i Mnajdra",
+       "placeRef": "hagarQim",
+       "note": "1,5 h."
+      }
+     ]
+    },
+    {
+     "location": "Blue Grotto",
+     "items": [
+      {
+       "id": "grotto",
+       "time": "11:15",
+       "type": "see",
+       "title": "Blue Grotto: łódź do grot",
+       "placeRef": "blueGrotto",
+       "note": "Łódź ok. 10 € gotówką.",
+       "getThere": {
+        "mode": "walk",
+        "text": "W dół drogą do Wied iż-Żurrieq",
+        "minutes": 25,
+        "cost": ""
+       }
+      },
+      {
+       "id": "lunch",
+       "time": "12:15",
+       "type": "eat",
+       "title": "Lunch: Blue Cave",
+       "placeRef": "blueCave"
+      }
+     ]
+    },
+    {
+     "location": "Paola",
+     "transfer": {
+      "id": "bolt",
+      "time": "14:00",
+      "type": "transport",
+      "title": "Bolt do Paoli",
+      "getThere": {
+       "mode": "bolt",
+       "text": "Bolt z Wied iż-Żurrieq",
+       "minutes": 20,
+       "cost": "ok. 15 €"
+      }
+     },
+     "items": [
+      {
+       "id": "tarxien",
+       "time": "14:30",
+       "type": "see",
+       "title": "Świątynie Tarxien",
+       "placeRef": "tarxien"
+      },
+      {
+       "id": "hypogeum",
+       "time": "15:45",
+       "type": "see",
+       "title": "Hypogeum – tura 16:00",
+       "placeRef": "hypogeum",
+       "hypogeum": true,
+       "note": "Być 15 min przed turą.",
+       "getThere": {
+        "mode": "walk",
+        "text": "Z Tarxien do Hypogeum",
+        "minutes": 10,
+        "cost": ""
+       }
+      }
+     ]
+    },
+    {
+     "location": "Valletta",
+     "transfer": {
+      "id": "bus2",
+      "time": "17:15",
+      "type": "transport",
+      "title": "Autobus 81/82/85 do Valletty",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Z Paoli autobusem 81, 82 lub 85",
+       "minutes": 20,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "dinner",
+       "time": "19:00",
+       "type": "eat",
+       "title": "Kolacja: Rubino",
+       "placeRef": "rubino",
+       "note": "Powrót do Sliemy autobusem lub Boltem."
+      }
+     ]
+    }
+   ]
+  },
+  "VALLETTA": {
+   "title": "Valletta i St Julian's",
+   "outdoor": false,
+   "warnings": [
+    "Konkatedra: zakryte ramiona i kolana, bez szpilek."
+   ],
+   "blocks": [
+    {
+     "location": "Valletta",
+     "transfer": {
+      "id": "ferry",
+      "time": "08:30",
+      "type": "transport",
+      "title": "Prom do Valletty",
+      "placeRef": "sliemaFerries",
+      "getThere": {
+       "mode": "ferry",
+       "text": "Prom z przystani Sliema Ferries",
+       "minutes": 10,
+       "cost": "3 €"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "stjohns",
+       "time": "09:15",
+       "type": "see",
+       "title": "Konkatedra św. Jana",
+       "placeRef": "stJohns",
+       "note": "Bilet online. 1,5 h."
+      },
+      {
+       "id": "museum",
+       "time": "11:00",
+       "type": "see",
+       "title": "Muzeum Archeologiczne",
+       "placeRef": "archaeology",
+       "note": "45 min."
+      },
+      {
+       "id": "lascaris",
+       "time": "12:15",
+       "type": "see",
+       "title": "Lascaris War Rooms (tura 12:30)",
+       "placeRef": "lascaris"
+      },
+      {
+       "id": "lunch",
+       "time": "14:00",
+       "type": "eat",
+       "title": "Lunch: Piadina Caffe albo Caffe Cordina",
+       "placeRef": "piadina",
+       "food": [
+        "cordina"
+       ]
+      },
+      {
+       "id": "elmo",
+       "time": "15:00",
+       "type": "see",
+       "title": "(opcja) Fort St Elmo albo Lower Barrakka i Siege Bell",
+       "placeRef": "fortStElmo",
+       "optional": true,
+       "food": [],
+       "alsoRefs": [
+        "lowerBarrakka"
+       ]
+      }
+     ]
+    },
+    {
+     "location": "Sliema → Spinola Bay",
+     "transfer": {
+      "id": "ferry2",
+      "time": "15:45",
+      "type": "transport",
+      "title": "Prom do Sliemy",
+      "placeRef": "sliemaFerries",
+      "getThere": {
+       "mode": "ferry",
+       "text": "Prom z Valletty (Marsamxett) do Sliema Ferries",
+       "minutes": 10,
+       "cost": "3 €"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "promenade",
+       "time": "16:00",
+       "type": "view",
+       "title": "Spacer promenadą do Spinola Bay, zachód ok. 16:55",
+       "placeRef": "spinola",
+       "getThere": {
+        "mode": "walk",
+        "text": "Promenadą wzdłuż morza",
+        "minutes": 45,
+        "cost": ""
+       }
+      },
+      {
+       "id": "dinner",
+       "time": "18:30",
+       "type": "eat",
+       "title": "Kolacja: Gululu albo Ta' Kris",
+       "placeRef": "gululu",
+       "note": "Gululu – rezerwacja. Powrót autobusem lub Boltem.",
+       "food": [
+        "taKris"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "VALLETTA_H12": {
+   "title": "Valletta z Hypogeum o 12:00",
+   "outdoor": false,
+   "hypogeumSlot": "12",
+   "warnings": [
+    "Hypogeum: bądźcie 15 min przed turą, pełne buty, zakaz zdjęć.",
+    "Konkatedra: zakryte ramiona i kolana, bez szpilek."
+   ],
+   "blocks": [
+    {
+     "location": "Valletta",
+     "transfer": {
+      "id": "ferry",
+      "time": "08:30",
+      "type": "transport",
+      "title": "Prom do Valletty",
+      "placeRef": "sliemaFerries",
+      "getThere": {
+       "mode": "ferry",
+       "text": "Prom z przystani Sliema Ferries",
+       "minutes": 10,
+       "cost": "3 €"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "stjohns",
+       "time": "09:15",
+       "type": "see",
+       "title": "Konkatedra św. Jana",
+       "placeRef": "stJohns",
+       "note": "Bilet online."
+      }
+     ]
+    },
+    {
+     "location": "Paola",
+     "transfer": {
+      "id": "bus",
+      "time": "11:15",
+      "type": "transport",
+      "title": "Autobus 81/82/85 do Paoli",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Z dworca w Valletcie autobusem 81, 82 lub 85",
+       "minutes": 15,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "hypogeum",
+       "time": "11:40",
+       "type": "see",
+       "title": "Hypogeum – tura 12:00",
+       "placeRef": "hypogeum",
+       "hypogeum": true,
+       "note": "Być 15 min przed turą."
+      }
+     ]
+    },
+    {
+     "location": "Valletta",
+     "transfer": {
+      "id": "bus2",
+      "time": "13:15",
+      "type": "transport",
+      "title": "Autobus do Valletty",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Z Paoli autobusem 81, 82 lub 85",
+       "minutes": 20,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "lunch",
+       "time": "13:45",
+       "type": "eat",
+       "title": "Lunch: Piadina Caffe",
+       "placeRef": "piadina",
+       "food": [
+        "cordina"
+       ]
+      },
+      {
+       "id": "lascaris",
+       "time": "14:20",
+       "type": "see",
+       "title": "Lascaris War Rooms (zwiedzanie samodzielne)",
+       "placeRef": "lascaris",
+       "note": "Przewodnik jest tylko o 10:30 i 12:30 – po południu zwiedzacie sami.",
+       "verify": true
+      }
+     ]
+    },
+    {
+     "location": "Sliema → Spinola Bay",
+     "transfer": {
+      "id": "ferry2",
+      "time": "16:00",
+      "type": "transport",
+      "title": "Prom do Sliemy",
+      "placeRef": "sliemaFerries",
+      "getThere": {
+       "mode": "ferry",
+       "text": "Prom z Valletty do Sliema Ferries",
+       "minutes": 10,
+       "cost": "3 €"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "promenade",
+       "time": "16:15",
+       "type": "view",
+       "title": "Promenada i zachód słońca (ok. 16:55)",
+       "placeRef": "spinola"
+      },
+      {
+       "id": "dinner",
+       "time": "18:30",
+       "type": "eat",
+       "title": "Kolacja: Gululu albo Ta' Kris",
+       "placeRef": "gululu",
+       "food": [
+        "taKris"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "VALLETTA_H16": {
+   "title": "Valletta z Hypogeum o 16:00",
+   "outdoor": false,
+   "hypogeumSlot": "16",
+   "warnings": [
+    "Hypogeum: bądźcie 15 min przed turą, pełne buty, zakaz zdjęć.",
+    "Konkatedra: zakryte ramiona i kolana, bez szpilek."
+   ],
+   "blocks": [
+    {
+     "location": "Valletta",
+     "transfer": {
+      "id": "ferry",
+      "time": "08:30",
+      "type": "transport",
+      "title": "Prom do Valletty",
+      "placeRef": "sliemaFerries",
+      "getThere": {
+       "mode": "ferry",
+       "text": "Prom z przystani Sliema Ferries",
+       "minutes": 10,
+       "cost": "3 €"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "stjohns",
+       "time": "09:15",
+       "type": "see",
+       "title": "Konkatedra św. Jana",
+       "placeRef": "stJohns",
+       "note": "Bilet online."
+      },
+      {
+       "id": "museum",
+       "time": "11:00",
+       "type": "see",
+       "title": "Muzeum Archeologiczne",
+       "placeRef": "archaeology"
+      },
+      {
+       "id": "lascaris",
+       "time": "12:15",
+       "type": "see",
+       "title": "Lascaris War Rooms (tura 12:30)",
+       "placeRef": "lascaris"
+      },
+      {
+       "id": "lunch",
+       "time": "14:00",
+       "type": "eat",
+       "title": "Lunch: Piadina Caffe albo Caffe Cordina",
+       "placeRef": "piadina",
+       "food": [
+        "cordina"
+       ]
+      }
+     ]
+    },
+    {
+     "location": "Paola",
+     "transfer": {
+      "id": "bus",
+      "time": "15:15",
+      "type": "transport",
+      "title": "Autobus do Paoli",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Z dworca w Valletcie autobusem 81, 82 lub 85",
+       "minutes": 15,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "hypogeum",
+       "time": "15:45",
+       "type": "see",
+       "title": "Hypogeum – tura 16:00",
+       "placeRef": "hypogeum",
+       "hypogeum": true,
+       "note": "Być 15 min przed turą."
+      }
+     ]
+    },
+    {
+     "location": "Sliema",
+     "transfer": {
+      "id": "bus2",
+      "time": "17:15",
+      "type": "transport",
+      "title": "Autobus do Valletty / Sliemy",
+      "placeRef": "vallettaTerminus",
+      "getThere": {
+       "mode": "bus",
+       "text": "Z Paoli do Valletty, potem autobus lub Bolt do Sliemy",
+       "minutes": 40,
+       "cost": "karta Explore"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "dinner",
+       "time": "19:00",
+       "type": "eat",
+       "title": "Kolacja w Sliemie: Kups albo Ta' Kris",
+       "placeRef": "kups",
+       "food": [
+        "taKris"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "DEPARTURE": {
+   "title": "Wylot 16:00",
+   "outdoor": false,
+   "warnings": [
+    "Wylot 16:00 – bądźcie na lotnisku ok. 13:30.",
+    "Pasty i miękkie sery w bagażu podręcznym to płyny (max 100 ml)."
+   ],
+   "alternative": {
+    "title": "Wariant spokojny: bez Valletty",
+    "steps": [
+     "Poranek w Sliemie i na Tigné Point",
+     "Galeria The Point – ostatnie zakupy",
+     "Ftira z tuńczykiem w piekarni",
+     "13:00 Bolt na lotnisko"
+    ]
+   },
+   "blocks": [
+    {
+     "location": "Sliema",
+     "items": [
+      {
+       "id": "bf",
+       "time": "09:00",
+       "type": "eat",
+       "title": "Śniadanie (hotel albo Jeff's)",
+       "placeRef": "jeffs"
+      },
+      {
+       "id": "checkout",
+       "time": "10:00",
+       "type": "task",
+       "title": "Wymeldowanie, bagaż zostaje w hotelu",
+       "placeRef": "centric"
+      }
+     ]
+    },
+    {
+     "location": "Valletta",
+     "transfer": {
+      "id": "ferry",
+      "time": "10:15",
+      "type": "transport",
+      "title": "Prom do Valletty",
+      "placeRef": "sliemaFerries",
+      "getThere": {
+       "mode": "ferry",
+       "text": "Prom z przystani Sliema Ferries",
+       "minutes": 10,
+       "cost": "3 €"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "shopping",
+       "time": "10:45",
+       "type": "buy",
+       "title": "Zakupy: Merchants Street i Republic Street",
+       "placeRef": "vallettaStreets",
+       "note": "Lista „Kupić w markecie” w zakładce Jedzenie."
+      },
+      {
+       "id": "gun",
+       "time": "12:00",
+       "type": "view",
+       "title": "Salwa armatnia w Upper Barrakka",
+       "placeRef": "upperBarrakka"
+      }
+     ]
+    },
+    {
+     "location": "Sliema → lotnisko",
+     "transfer": {
+      "id": "ferry2",
+      "time": "12:15",
+      "type": "transport",
+      "title": "Prom do Sliemy",
+      "placeRef": "sliemaFerries",
+      "getThere": {
+       "mode": "ferry",
+       "text": "Prom co ok. 30 min z przystani przy Marsamxett",
+       "minutes": 10,
+       "cost": "3 €"
+      },
+      "verify": true
+     },
+     "items": [
+      {
+       "id": "luggage",
+       "time": "12:45",
+       "type": "task",
+       "title": "Odbiór bagażu z hotelu",
+       "placeRef": "centric"
+      },
+      {
+       "id": "taxi",
+       "time": "13:00",
+       "type": "transport",
+       "title": "Bolt na lotnisko",
+       "placeRef": "airport",
+       "getThere": {
+        "mode": "bolt",
+        "text": "Bolt lub eCabs",
+        "minutes": 30,
+        "cost": "ok. 20–25 €"
+       }
+      },
+      {
+       "id": "airport",
+       "time": "13:30",
+       "type": "task",
+       "title": "Na lotnisku: odprawa, wylot 16:00",
+       "placeRef": "airport"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "eatList": [
+  {
+   "id": "pastizzi",
+   "name": "Pastizzi",
+   "desc": "francuskie ciasto z ricottą (tal-irkotta) albo groszkiem (tal-piżelli)"
+  },
+  {
+   "id": "ftira",
+   "name": "Ftira z tuńczykiem",
+   "desc": "płaski chleb z tuńczykiem, pomidorami, kaparami i oliwkami"
+  },
+  {
+   "id": "hobz",
+   "name": "Ħobż biż-żejt",
+   "desc": "chleb z pastą pomidorową kunserva, tuńczykiem, kaparami i oliwą"
+  },
+  {
+   "id": "fenek",
+   "name": "Stuffat tal-fenek",
+   "desc": "gulasz z królika w winie i pomidorach – danie narodowe"
+  },
+  {
+   "id": "bragioli",
+   "name": "Bragioli",
+   "desc": "zrazy wołowe z farszem, duszone w sosie"
+  },
+  {
+   "id": "lampuki",
+   "name": "Lampuki",
+   "desc": "ryba koryfena – listopad to jej sezon; także jako zapiekanka torta tal-lampuki"
+  },
+  {
+   "id": "qassatat",
+   "name": "Qassatat",
+   "desc": "kruche pierożki z ricottą albo szpinakiem"
+  },
+  {
+   "id": "imqaret",
+   "name": "Imqaret",
+   "desc": "smażone ciastka z nadzieniem daktylowym"
+  },
+  {
+   "id": "kannoli",
+   "name": "Kannoli z ricottą",
+   "desc": "chrupiące rurki z kremem z ricotty"
+  },
+  {
+   "id": "gbejniet",
+   "name": "Ġbejniet",
+   "desc": "małe serki – świeże, suszone albo z pieprzem"
+  },
+  {
+   "id": "kinnie",
+   "name": "Kinnie",
+   "desc": "gorzko-pomarańczowy napój gazowany z ziołami"
+  },
+  {
+   "id": "cisk",
+   "name": "Cisk Lager",
+   "desc": "lokalne piwo"
+  },
+  {
+   "id": "ciskExcel",
+   "name": "Cisk Excel ★",
+   "desc": "lżejszy lager od tego samego browaru"
+  }
+ ],
+ "marketList": [
+  {
+   "id": "gbejniet",
+   "name": "Ġbejniet",
+   "desc": "suszone z pieprzem lepiej znoszą podróż"
+  },
+  {
+   "id": "bigilla",
+   "name": "Bigilla",
+   "desc": "pasta z fasoli"
+  },
+  {
+   "id": "kinnie",
+   "name": "Kinnie"
+  },
+  {
+   "id": "cisk",
+   "name": "Cisk"
+  },
+  {
+   "id": "qubbajt",
+   "name": "Qubbajt",
+   "desc": "nugat"
+  },
+  {
+   "id": "bajtra",
+   "name": "Likier bajtra",
+   "desc": "z opuncji"
+  },
+  {
+   "id": "honey",
+   "name": "Miód maltański"
+  },
+  {
+   "id": "salt",
+   "name": "Sól z Gozo"
+  }
+ ],
+ "marketNote": "Pasty i miękkie sery w bagażu podręcznym liczą się jako płyny (max 100 ml).",
+ "bookings": [
+  {
+   "id": "merill",
+   "text": "Il-Merill – kolacja (WhatsApp)",
+   "placeRef": "ilMerill",
+   "templateRef": [
+    "RABAT_MDINA_DINGLI"
+   ]
+  },
+  {
+   "id": "tartarun",
+   "text": "Tartarun – lunch w niedzielę",
+   "placeRef": "tartarun",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "legligin",
+   "text": "Legligin – kolacja",
+   "placeRef": "legligin",
+   "templateRef": [
+    "THREE_CITIES"
+   ]
+  },
+  {
+   "id": "gululu",
+   "text": "Gululu – kolacja",
+   "placeRef": "gululu",
+   "templateRef": [
+    "VALLETTA",
+    "VALLETTA_H12"
+   ]
+  },
+  {
+   "id": "sotto",
+   "text": "Sotto Pinsa – kolacja w dzień Gozo (telefon)",
+   "placeRef": "sottoPinsa",
+   "templateRef": [
+    "GOZO"
+   ]
+  },
+  {
+   "id": "ferry",
+   "text": "Gozo Highspeed – bilet online dzień przed (jeśli nie macie pakietu w karcie)",
+   "placeRef": "gozoFerry",
+   "templateRef": [
+    "GOZO"
+   ],
+   "offset": -1
+  },
+  {
+   "id": "stjohns",
+   "text": "Konkatedra św. Jana – bilet online",
+   "placeRef": "stJohns",
+   "templateRef": [
+    "VALLETTA",
+    "VALLETTA_H12",
+    "VALLETTA_H16"
+   ]
+  },
+  {
+   "id": "hypogeum",
+   "text": "Hypogeum – sklep online codziennie + próby last-minute",
+   "placeRef": "hypogeum",
+   "url": "https://heritagemalta.mt/store/s81/"
+  }
+ ],
+ "transport": [
+  {
+   "text": "Prom Sliema – Valletta (Valletta Ferry Services): ok. 10 min, 3 € (wieczorem 3,50 €). Pn–czw co 30 min ok. 6:45–19:15, potem co godzinę do ok. 22:15; pt–sb do ok. 0:15; w niedziele ok. 8:45–18:30.",
+   "url": "https://www.vallettaferryservices.com/schedule/",
+   "verify": true
+  },
+  {
+   "text": "Prom Valletta – Trzy Miasta (Cospicua/Birgu): ok. 10 min, 3 €, przystań pod Barrakka Lift; w niedziele ok. 9:00–18:15.",
+   "verify": true
+  },
+  {
+   "text": "Barrakka Lift (Upper Barrakka ↔ nabrzeże): 1 €."
+  },
+  {
+   "text": "Autobusy: karta Explore 25 €/os na 7 dni (bez promów). Explore Flex 7 dni z pakietem Gozo Highspeed 42 €/os (1 rejs na Gozo i z powrotem). Kupicie na lotnisku.",
+   "url": "https://www.publictransport.com.mt/en/explore-card"
+  },
+  {
+   "text": "Ze Sliemy: do Valletty autobusem z przystanku Sliema Ferries (ok. 20 min); do Rabatu bezpośrednio linią 202. Z dworca w Valletcie linie na południe (74, 81, 82, 85) i do Rabatu (51, 52, 53). Część linii mogła zmienić pętlę – sprawdzajcie w Tallinja.",
+   "verify": true
+  },
+  {
+   "text": "Lotnisko: linia X2 zlikwidowana; do Sliemy jedzie TD3 (dodatkowo płatna) albo Bolt/eCabs.",
+   "verify": true
+  },
+  {
+   "text": "Gozo Highspeed: Valletta – Mġarr ok. 45 min, ok. 7,50 € w jedną stronę; kursy mniej więcej co 45–60 min.",
+   "url": "https://gozohighspeed.com/pages/fares-and-schedule",
+   "verify": true
+  },
+  {
+   "text": "Bolt / eCabs: Sliema – lotnisko ok. 20–25 €, Sliema – Lascaris Wharf ok. 10 €."
+  },
+  {
+   "text": "Rozkłady na żywo: aplikacja Tallinja (Malta Public Transport).",
+   "url": "https://www.publictransport.com.mt/"
+  }
+ ],
+ "practical": [
+  {
+   "text": "Hotel: Centric Hotel by Cast Hotels, Triq ix-Xatt 20, Sliema SLM 1024."
+  },
+  {
+   "text": "Numer alarmowy: 112."
+  },
+  {
+   "text": "Gniazdka typu G (brytyjskie) – potrzebny adapter."
+  },
+  {
+   "text": "Ruch lewostronny: przechodząc przez ulicę, patrzcie najpierw w prawo."
+  },
+  {
+   "text": "Gotówka: łódź w Blue Grotto i w Dwejrze; na promy lokalne też miejcie drobne."
+  },
+  {
+   "text": "Taksówki: Bolt lub eCabs w aplikacji, nie białe taksówki spod terminalu."
+  },
+  {
+   "text": "Rozkłady na żywo: aplikacja Tallinja (Malta Public Transport).",
+   "url": "https://www.publictransport.com.mt/"
+  },
+  {
+   "text": "Heritage Malta – wszystkie obiekty i godziny.",
+   "url": "https://heritagemalta.mt/explore/"
+  },
+  {
+   "text": "Zachód słońca ok. 16:55: plenery do 17:00, potem miasto."
+  },
+  {
+   "text": "Woda z kranu jest zdatna do picia, ale ma posmak odsalania – większość osób kupuje butelkowaną."
+  },
+  {
+   "text": "Strefa czasowa taka jak w Polsce."
+  }
+ ]
+}

@@ -1,1 +1,72 @@
-<!doctype html><html lang="pl"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Malta 2026</title><p>Malta 7–14.11.2026 — aplikacja w budowie.</p></html>
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Malta 2026</title>
+  <meta name="description" content="Plan wyjazdu na Maltę 7–14.11.2026 – działa offline.">
+  <meta name="theme-color" content="#0b5d8f" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1720" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Malta 2026">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/dzis"><span class="cross" aria-hidden="true">✠</span> Malta 7–14.11</a>
+    <span id="net" class="net" hidden>offline</span>
+  </header>
+
+  <div id="update" class="update" hidden>
+    <span>Nowa wersja planu</span>
+    <button class="btn small accent" data-action="reload-sw">Odśwież</button>
+  </div>
+
+  <main id="view" tabindex="-1">
+    <p class="loading">Ładuję plan…</p>
+  </main>
+
+  <nav id="tabs" class="tabs" aria-label="Zakładki">
+    <a href="#/dzis" data-tab="dzis">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+      <span>Dziś</span>
+    </a>
+    <a href="#/plan" data-tab="plan">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+      <span>Plan</span>
+    </a>
+    <a href="#/jedzenie" data-tab="jedzenie">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v8M4.5 3v5a2.5 2.5 0 0 0 5 0V3M7 11v10M17 21V3c-2.5 1.5-3.5 4-3.5 7.5V13H17"/></svg>
+      <span>Jedzenie</span>
+    </a>
+    <a href="#/info" data-tab="info">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>
+      <span>Info</span>
+    </a>
+    <a href="#/ustawienia" data-tab="ustawienia">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg>
+      <span>Ustawienia</span>
+    </a>
+  </nav>
+
+  <div id="sheet" class="sheet" hidden>
+    <div class="sheet-backdrop" data-close></div>
+    <div id="sheet-panel" class="sheet-panel" role="dialog" aria-modal="true" aria-label="Szczegóły">
+      <div class="sheet-top"><span class="grab" aria-hidden="true"></span><button class="sheet-close" data-close aria-label="Zamknij">✕</button></div>
+      <div id="sheet-body" class="sheet-body"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <noscript><p style="padding:16px">Ta aplikacja wymaga JavaScriptu.</p></noscript>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
