@@ -2,7 +2,7 @@
 // network-first (z fallbackiem do cache) dla data/trip.json.
 // Po zmianie dowolnego pliku podbij VERSION (albo: node tools/update-sw.mjs --bump).
 
-const VERSION = 'malta-v1';
+const VERSION = 'malta-v2';
 
 // <assets> (lista generowana przez tools/update-sw.mjs)
 const CORE = [
